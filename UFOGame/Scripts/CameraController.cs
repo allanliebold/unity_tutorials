@@ -12,7 +12,9 @@ public class CameraController : MonoBehaviour {
     }
     
     void LateUpdate ()
+    // LateUpdate is called afer each update frame
     {
+        
         
     }
 }
