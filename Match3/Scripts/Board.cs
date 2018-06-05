@@ -12,7 +12,11 @@ public class Board : MonoBehaviour {
   
   void Start ()
   {
-    
+    m_allTiles = new Tile[width,height];
   }
   
+  void SetupTiles()
+  {
+     
+  }
 }
