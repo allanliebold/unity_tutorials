@@ -6,4 +6,9 @@ public class Board : MonoBehaviour {
   public int width;
   public int height;
   
+  void Start ()
+  {
+    
+  }
+  
 }
