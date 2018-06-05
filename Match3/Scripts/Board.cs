@@ -10,13 +10,15 @@ public class Board : MonoBehaviour {
   
   Tile[,] m_allTiles;
   
-  void Start ()
-  {
+  void Start () {
     m_allTiles = new Tile[width,height];
   }
   
-  void SetupTiles()
-  {
-     
+  void SetupTiles() {
+     for (int i = 0; i < width; i++) {
+      for(int j = 0; i < height; j++) {
+        GameObject tile = Instantiate (tilePrefab, new Vector3(i, j, 0), Quaternion.identity) as GameObject; 
+      }       
+     }
   }
 }
