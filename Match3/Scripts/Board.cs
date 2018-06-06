@@ -9,10 +9,14 @@ public class Board : MonoBehaviour {
   public GameObject tilePrefab;
   
   Tile[,] m_allTiles;
+  GamePiece[,] m_allGamePieces;
   
   void Start () {
     m_allTiles = new Tile[width,height];
+    m_allGamePieces = new GamePiece[width,height];
+    
     SetupTiles();
+    SetupCamera();
   }
   
   void SetupTiles() {
