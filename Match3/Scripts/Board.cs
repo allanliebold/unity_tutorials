@@ -35,6 +35,6 @@ public class Board : MonoBehaviour {
   void SetupCamera() {
     Camera.main.transform.position = new Vector3((float) width / 2, (float) height / 2, -10f);
     
-    float aspectRatio = Screen.width / Screen.height;
+    float aspectRatio = (float) Screen.width / (float) Screen.height;
   }
 }
