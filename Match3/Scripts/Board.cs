@@ -40,5 +40,6 @@ public class Board : MonoBehaviour {
     float horizontalSize = (float) width / 2f + (float) borderSize / aspectRatio;
     
     Camera.main.orthographicSize = (verticalSize > horizontalSize) ? verticalSize : horizontalSize;
+    
   }
 }
