@@ -29,4 +29,8 @@ public class Board : MonoBehaviour {
       }       
      }
   }
+  
+  void SetupCamera() {
+    
+  }
 }
