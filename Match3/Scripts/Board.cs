@@ -37,5 +37,6 @@ public class Board : MonoBehaviour {
     
     float aspectRatio = (float) Screen.width / (float) Screen.height;
     float verticalSize = (float) height / 2f + (float) borderSize;
+    float horizontalSize = (float) width / 2f + (float) borderSize;
   }
 }
