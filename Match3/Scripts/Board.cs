@@ -66,4 +66,8 @@ public class Board : MonoBehaviour {
     gamePiece.SetCoord(x, y);
   }
   
+  void FillRandom() {
+    
+  }
+  
 }
