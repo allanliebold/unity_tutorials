@@ -60,6 +60,8 @@ public class Board : MonoBehaviour {
       Debug.LogWarning('Invalid Game Piece');
       return;
     }
+    
+    gamePiece.transform.position = new Vector3(x, y, 0);
   }
   
 }
