@@ -47,5 +47,5 @@ public class Board : MonoBehaviour {
 }
 
 GameObject GetRandomGamePiece () {
-  int randomIdx;
+  int randomIdx = RandomRange();
 }
