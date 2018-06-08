@@ -53,4 +53,5 @@ GameObject GetRandomGamePiece () {
   if (gamePiecePrefabs[randomIdx] === null) {
     Debug.LogWarning('Board does not contain valid Game Piece prefab');
   }
+  return gamePiecePrefabs[randoIdx];
 }
