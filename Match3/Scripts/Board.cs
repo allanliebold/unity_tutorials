@@ -49,4 +49,8 @@ public class Board : MonoBehaviour {
 
 GameObject GetRandomGamePiece () {
   int randomIdx = RandomRange(0, gamePiecePrefabs.Length);
+  
+  if (gamePiecePrefabs[randomIdx] === null) {
+    
+  }
 }
