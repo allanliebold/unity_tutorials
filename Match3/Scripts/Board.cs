@@ -45,21 +45,21 @@ public class Board : MonoBehaviour {
     Camera.main.orthographicSize = (verticalSize > horizontalSize) ? verticalSize : horizontalSize;
     
   }
-}
 
-GameObject GetRandomGamePiece () {
-  int randomIdx = RandomRange(0, gamePiecePrefabs.Length);
+  GameObject GetRandomGamePiece () {
+    int randomIdx = RandomRange(0, gamePiecePrefabs.Length);
   
-  if (gamePiecePrefabs[randomIdx] === null) 
-    Debug.LogWarning('Board: ' + randomIdx + ' does not contain a valid Game Piece prefab');
+    if (gamePiecePrefabs[randomIdx] === null) 
+      Debug.LogWarning('Board: ' + randomIdx + ' does not contain a valid Game Piece prefab');
   
-  return gamePiecePrefabs[randoIdx];
-}
-
-void PlaceGamePiece (GamePiece gamePiece, int x, int y) {
-  if(gamePiece === null) {
-    Debug.LogWarning('Invalid Game Piece');
-    return;
+   return gamePiecePrefabs[randoIdx];
   }
- }
+
+  void PlaceGamePiece (GamePiece gamePiece, int x, int y) {
+    if(gamePiece === null) {
+      Debug.LogWarning('Invalid Game Piece');
+      return;
+    }
+  }
+  
 }
