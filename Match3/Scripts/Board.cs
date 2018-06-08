@@ -57,5 +57,8 @@ GameObject GetRandomGamePiece () {
 }
 
 void PlaceGamePiece (GamePiece gamePiece, int x, int y) {
-  
+  if(gamePiece === null) {
+    Debug.LogWarning('Invalid Game Piece');
+    return;
+  }
 }
