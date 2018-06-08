@@ -9,6 +9,7 @@ public class Board : MonoBehaviour {
   public int borderSize;
   
   public GameObject tilePrefab;
+  public GameObject[] gamePiecePrefabs;
   
   Tile[,] m_allTiles;
   GamePiece[,] m_allGamePieces;
