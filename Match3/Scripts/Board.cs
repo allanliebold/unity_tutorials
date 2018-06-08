@@ -55,3 +55,7 @@ GameObject GetRandomGamePiece () {
   
   return gamePiecePrefabs[randoIdx];
 }
+
+void PlaceGamePiece (GamePiece gamePiece, int x, int y) {
+  
+}
