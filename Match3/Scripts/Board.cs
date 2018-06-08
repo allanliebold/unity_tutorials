@@ -50,6 +50,8 @@ public class Board : MonoBehaviour {
 GameObject GetRandomGamePiece () {
   int randomIdx = RandomRange(0, gamePiecePrefabs.Length);
   
-  gamePiecePrefabs[randomIdx] === null ? Debug.LogWarning('Board does not contain valid Game Piece prefab') :
-                                         return gamePiecePrefabs[randoIdx];
+  if (gamePiecePrefabs[randomIdx] === null) 
+    Debug.LogWarning('Board does not contain valid Game Piece prefab');
+  
+  return gamePiecePrefabs[randoIdx];
 }
