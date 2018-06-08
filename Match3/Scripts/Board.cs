@@ -45,3 +45,7 @@ public class Board : MonoBehaviour {
     
   }
 }
+
+GameObject GetRandomGamePiece () {
+  
+}
