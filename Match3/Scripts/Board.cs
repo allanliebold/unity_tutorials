@@ -61,4 +61,5 @@ void PlaceGamePiece (GamePiece gamePiece, int x, int y) {
     Debug.LogWarning('Invalid Game Piece');
     return;
   }
+ }
 }
