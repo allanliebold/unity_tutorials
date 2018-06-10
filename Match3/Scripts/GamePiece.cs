@@ -10,6 +10,10 @@ public class GamePiece : MonoBehaviour {
     if(Input.GetKeyDown(KeyCode.RightArrow)) {
       Move((int)transform.position.x + 1, (int)transform.position.y, 0.5f);
     }
+    
+    if(Input.GetKeyDown(KeyCode.LeftArrow)) {
+      Move((int)transform.position.x - 1, (int)transform.position.y, 0.5f);
+    }
   }
 
   public void SetCoord (int x, int y) {
