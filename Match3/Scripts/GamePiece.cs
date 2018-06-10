@@ -26,6 +26,8 @@ public class GamePiece : MonoBehaviour {
         transform.position = destination;
       }
       
+      elapsedTime += Time.deltaTime;
+      
       // wait until next frame
       yield return null;
     }
