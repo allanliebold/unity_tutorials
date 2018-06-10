@@ -30,6 +30,8 @@ public class GamePiece : MonoBehaviour {
     Vector3 startPosition = transform.position;
     bool reachedDestination = false;
     float elapsedTime = 0f;
+    m_isMoving = true;
+    
     while (!reachedDestination) {
       // do something now
       if (Vector3.Distance(transform.position, destination) < 0.01f) {
