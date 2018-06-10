@@ -23,7 +23,9 @@ public class GamePiece : MonoBehaviour {
   }
   
   public void Move (int destX, int destY, float timeToMove) {
-    StartCoroutine(MoveRoutine(new Vector3(destX, destY, 0), timeToMove));
+    if(!m_isMoving) {
+      StartCoroutine(MoveRoutine(new Vector3(destX, destY, 0), timeToMove));
+    }
   }
   
   IEnumerator MoveRoutine(Vector3 destination, float timeToMove) {
