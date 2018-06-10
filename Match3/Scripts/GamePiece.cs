@@ -63,6 +63,10 @@ public class GamePiece : MonoBehaviour {
           break;
         case InterpType.EaseIn:
           break;
+        case InterpType.SmoothStep:
+          break;
+        case InterpType.SmootherStep:
+          break;
       }
       
       //t = 1 - Mathf.Cos(t * Mathf.PI * 0.5f);
