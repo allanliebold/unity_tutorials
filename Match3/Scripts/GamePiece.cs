@@ -17,5 +17,6 @@ public class GamePiece : MonoBehaviour {
   
   IEnumerator MoveRoutine(Vector3 destination, float timeToMove) {
     Vector3 startPosition = transform.position;
+    bool reachedDestination = false;
   }
 }
