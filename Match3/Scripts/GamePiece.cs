@@ -20,7 +20,7 @@ public class GamePiece : MonoBehaviour {
     bool reachedDestination = false;
     float elapsedTime = 0f;
     while (!reachedDestination) {
-      
+      yield return null;
     }
   }
 }
