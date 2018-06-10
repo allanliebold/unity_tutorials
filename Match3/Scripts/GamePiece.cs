@@ -5,6 +5,7 @@ public class GamePiece : MonoBehaviour {
 
   public int xIndex;
   public int yIndex;
+  bool m_isMoving = false;
   
   void Update() {
     if(Input.GetKeyDown(KeyCode.RightArrow)) {
