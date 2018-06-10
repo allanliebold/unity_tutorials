@@ -34,7 +34,7 @@ public class GamePiece : MonoBehaviour {
       if (Vector3.Distance(transform.position, destination) < 0.01f) {
         reachedDestination = true; 
         transform.position = destination;
-        SetCoord(destination.x, destination.y);
+        SetCoord((int)destination.x, (int)destination.y);
       }
       
       elapsedTime += Time.deltaTime;
