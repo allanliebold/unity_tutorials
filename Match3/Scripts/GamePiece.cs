@@ -8,7 +8,11 @@ public class GamePiece : MonoBehaviour {
   bool m_isMoving = false;
   
   public enum InterpType {
-    
+    Linear,
+    EaseOut,
+    EaseIn,
+    SmoothStep,
+    SmootherStep
   }
   
   void Update() {
