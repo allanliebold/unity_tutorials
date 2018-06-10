@@ -59,6 +59,8 @@ public class GamePiece : MonoBehaviour {
       switch(interpolation) {
         case InterpType.Linear:
           break;
+        case InterpType.EaseOut:
+          break;
       }
       
       //t = 1 - Mathf.Cos(t * Mathf.PI * 0.5f);
