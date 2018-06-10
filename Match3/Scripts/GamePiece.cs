@@ -19,5 +19,8 @@ public class GamePiece : MonoBehaviour {
     Vector3 startPosition = transform.position;
     bool reachedDestination = false;
     float elapsedTime = 0f;
+    while (!reachedDestination) {
+      
+    }
   }
 }
