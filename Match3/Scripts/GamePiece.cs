@@ -14,4 +14,8 @@ public class GamePiece : MonoBehaviour {
   public void Move (int destX, int destY, float timeToMove) {
     
   }
+  
+  IEnumerator MoveRoutine(Vector3 destination, float timeToMove) {
+    
+  }
 }
