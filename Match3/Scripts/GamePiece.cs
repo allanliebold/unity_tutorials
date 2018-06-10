@@ -22,7 +22,7 @@ public class GamePiece : MonoBehaviour {
     while (!reachedDestination) {
       // do something now
       if (Vector3.Distance(transform.position, destination) < 0.01f) {
-        
+        reachedDestination = true; 
       }
       
       // wait until next frame
