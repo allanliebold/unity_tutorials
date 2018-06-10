@@ -7,7 +7,9 @@ public class GamePiece : MonoBehaviour {
   public int yIndex;
   
   void Update() {
-    
+    if(Input.GetKeyDown(KeyCode.RightArrow)) {
+      Move((int)transform.position.x + 1;
+    }
   }
 
   public void SetCoord (int x, int y) {
