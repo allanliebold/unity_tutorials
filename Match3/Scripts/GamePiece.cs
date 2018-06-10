@@ -28,6 +28,7 @@ public class GamePiece : MonoBehaviour {
       
       elapsedTime += Time.deltaTime;
       float t = elapsedTime / timeToMove;
+      transform.position = Vector3.Lerp(startPosition, destination, t);
       
       // wait until next frame
       yield return null;
