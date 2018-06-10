@@ -27,6 +27,7 @@ public class GamePiece : MonoBehaviour {
       }
       
       elapsedTime += Time.deltaTime;
+      float t = elapsedTime / timeToMove;
       
       // wait until next frame
       yield return null;
