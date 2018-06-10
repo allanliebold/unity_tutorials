@@ -45,8 +45,6 @@ public class GamePiece : MonoBehaviour {
       
       elapsedTime += Time.deltaTime;
       float t = Mathf.Clamp(elapsedTime / timeToMove, 0f, 1f);
-      t = Mathf.Sin(t * Mathf.PI * 0.5f);
-      
       t = 1 - Mathf.Cos(t * Mathf.PI * 0.5f);
       
       transform.position = Vector3.Lerp(startPosition, destination, t);
