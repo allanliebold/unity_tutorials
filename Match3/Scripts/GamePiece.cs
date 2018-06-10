@@ -47,5 +47,7 @@ public class GamePiece : MonoBehaviour {
       // wait until next frame
       yield return null;
     }
+    
+    m_isMoving = false;
   }
 }
