@@ -8,7 +8,7 @@ public class GamePiece : MonoBehaviour {
   
   void Update() {
     if(Input.GetKeyDown(KeyCode.RightArrow)) {
-      Move((int)transform.position.x + 1;
+      Move((int)transform.position.x + 1, transform.position.y, 0.5f);
     }
   }
 
