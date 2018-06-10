@@ -10,4 +10,8 @@ public class GamePiece : MonoBehaviour {
     xIndex = x;
     yIndex = y;
   }
+  
+  public void Move (int destX, int destY, float timeToMove) {
+    
+  }
 }
