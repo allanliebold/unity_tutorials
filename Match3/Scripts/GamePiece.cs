@@ -21,7 +21,9 @@ public class GamePiece : MonoBehaviour {
     float elapsedTime = 0f;
     while (!reachedDestination) {
       // do something now
-      
+      if (Vector3.Distance(transform.position, destination) < 0.01f) {
+        
+      }
       
       // wait until next frame
       yield return null;
