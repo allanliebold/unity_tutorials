@@ -56,6 +56,11 @@ public class GamePiece : MonoBehaviour {
       elapsedTime += Time.deltaTime;
       float t = Mathf.Clamp(elapsedTime / timeToMove, 0f, 1f);
       
+      switch(interpolation) {
+        case InterpType.Linear:
+          break;
+      }
+      
       //t = 1 - Mathf.Cos(t * Mathf.PI * 0.5f);
       //t = t * t;
       t = t * t * t * (t * (t * 6 - 15) + 10);
