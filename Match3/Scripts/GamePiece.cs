@@ -7,6 +7,8 @@ public class GamePiece : MonoBehaviour {
   public int yIndex;
   bool m_isMoving = false;
   
+  public InterpType interpolation;
+  
   public enum InterpType {
     Linear,
     EaseOut,
