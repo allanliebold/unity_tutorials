@@ -7,6 +7,10 @@ public class GamePiece : MonoBehaviour {
   public int yIndex;
   bool m_isMoving = false;
   
+  public enum InterpType {
+    
+  }
+  
   void Update() {
     if(Input.GetKeyDown(KeyCode.RightArrow)) {
       Move((int)transform.position.x + 1, (int)transform.position.y, 0.5f);
