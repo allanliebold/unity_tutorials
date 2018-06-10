@@ -40,6 +40,7 @@ public class GamePiece : MonoBehaviour {
         reachedDestination = true; 
         transform.position = destination;
         SetCoord((int)destination.x, (int)destination.y);
+        break;
       }
       
       elapsedTime += Time.deltaTime;
