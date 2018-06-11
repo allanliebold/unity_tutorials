@@ -14,6 +14,8 @@ public class Board : MonoBehaviour {
   Tile[,] m_allTiles;
   GamePiece[,] m_allGamePieces;
   
+  Tile m_clickedTile;
+  
   void Start () {
     m_allTiles = new Tile[width,height];
     m_allGamePieces = new GamePiece[width,height];
