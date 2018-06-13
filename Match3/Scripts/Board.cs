@@ -80,7 +80,7 @@ public class Board : MonoBehaviour {
     }
   }
   
-  void ClickTile() {
+  void ClickTile(Tile tile) {
     
   }
   
