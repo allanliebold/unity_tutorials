@@ -21,6 +21,7 @@ public class Board : MonoBehaviour {
     
     SetupTiles();
     SetupCamera();
+    FillRandom();
   }
   
   void SetupTiles() {
