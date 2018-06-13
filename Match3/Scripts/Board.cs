@@ -82,7 +82,7 @@ public class Board : MonoBehaviour {
   
   void ClickTile(Tile tile) {
     if(m_clickedTile == null) {
-      
+      m_clickedTile = tile;  
     }
   }
   
