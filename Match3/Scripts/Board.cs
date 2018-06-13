@@ -70,7 +70,7 @@ public class Board : MonoBehaviour {
   void FillRandom() {
     for (int i = 0; i < width; i++) {
       for (int j = 0; j < height; j++) {
-        GameObject randomPiece = Instantiate(GetRandomGamePiece(), Vector3.zero, Quaternion.identity);
+        GameObject randomPiece = Instantiate(GetRandomGamePiece(), Vector3.zero, Quaternion.identity) as GameObject;
       }
     }
   }
