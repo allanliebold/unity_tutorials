@@ -73,7 +73,7 @@ public class Board : MonoBehaviour {
         GameObject randomPiece = Instantiate(GetRandomGamePiece(), Vector3.zero, Quaternion.identity) as GameObject;
         
         if(randomPiece != null) {
-          PlaceGamePiece();
+          PlaceGamePiece(randomPiece.GetComponent<GamePiece>(), i, j);
         }
       }
     }
