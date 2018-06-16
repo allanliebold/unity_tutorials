@@ -94,7 +94,9 @@ public class Board : MonoBehaviour {
   }
   
   public void DragToTile(Tile tile) {
-    
+    if(m_clickedTile != null) {
+      
+    }
   }
   
   public void ReleaseTile() {
