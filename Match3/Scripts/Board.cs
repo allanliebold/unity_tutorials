@@ -105,4 +105,8 @@ public class Board : MonoBehaviour {
     }
   }
   
+  void SwitchTile(Tile clickedTile, Tile targetTile) {
+     
+  }
+  
 }
