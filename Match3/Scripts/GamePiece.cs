@@ -25,6 +25,10 @@ public class GamePiece : MonoBehaviour {
       Move((int)transform.position.x - 1, (int)transform.position.y, 0.5f);
     }
   }
+  
+  public void Init(Board board) {
+    
+  }
 
   public void SetCoord (int x, int y) {
     xIndex = x;
