@@ -27,7 +27,7 @@ public class GamePiece : MonoBehaviour {
   }
   
   public void Init(Board board) {
-    
+    m_board = board;
   }
 
   public void SetCoord (int x, int y) {
