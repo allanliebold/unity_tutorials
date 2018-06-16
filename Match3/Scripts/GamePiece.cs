@@ -51,8 +51,10 @@ public class GamePiece : MonoBehaviour {
       // do something now
       if (Vector3.Distance(transform.position, destination) < 0.01f) {
         reachedDestination = true; 
-        transform.position = destination;
-        SetCoord((int)destination.x, (int)destination.y);
+      
+      //  transform.position = destination;
+      //  SetCoord((int)destination.x, (int)destination.y);
+      
         break;
       }
       
