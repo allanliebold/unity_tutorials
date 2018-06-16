@@ -97,4 +97,8 @@ public class Board : MonoBehaviour {
     
   }
   
+  public void ReleaseTile() {
+    
+  }
+  
 }
