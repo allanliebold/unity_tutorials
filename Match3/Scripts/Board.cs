@@ -106,6 +106,7 @@ public class Board : MonoBehaviour {
   }
   
   void SwitchTile(Tile clickedTile, Tile targetTile) {
+    GamePiece clickedPiece = m_allGamePieces[clickedTile.xIndex, clickedTile.yIndex];
     m_clickedTile = null;
     m_targetTile = null;
   }
