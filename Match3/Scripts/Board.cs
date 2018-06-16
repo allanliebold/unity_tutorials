@@ -69,6 +69,10 @@ public class Board : MonoBehaviour {
     gamePiece.SetCoord(x, y);
   }
   
+  bool IsWithinBounds(int x, int y) {
+    
+  }
+  
   void FillRandom() {
     for (int i = 0; i < width; i++) {
       for (int j = 0; j < height; j++) {
