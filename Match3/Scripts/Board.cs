@@ -93,4 +93,8 @@ public class Board : MonoBehaviour {
     }
   }
   
+  public void DragToTile(Tile tile) {
+    
+  }
+  
 }
