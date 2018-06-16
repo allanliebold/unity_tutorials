@@ -100,7 +100,9 @@ public class Board : MonoBehaviour {
   }
   
   public void ReleaseTile() {
-    
+    if(m_clickedTile != null && m_targetTile != null) {
+       
+    }
   }
   
 }
