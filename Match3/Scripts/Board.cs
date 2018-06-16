@@ -95,7 +95,7 @@ public class Board : MonoBehaviour {
   
   public void DragToTile(Tile tile) {
     if(m_clickedTile != null) {
-      
+      m_targetTile = tile;
     }
   }
   
