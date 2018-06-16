@@ -65,6 +65,7 @@ public class Board : MonoBehaviour {
     
     gamePiece.transform.position = new Vector3(x, y, 0);
     gamePiece.transform.rotation = Quaternion.identity;
+    m_allGamePieces[x,y] = gamePiece;
     gamePiece.SetCoord(x, y);
   }
   
