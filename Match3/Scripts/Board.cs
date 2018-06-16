@@ -76,6 +76,7 @@ public class Board : MonoBehaviour {
         if(randomPiece != null) {
           randomPiece.GetComponent<GamePiece>().Init(this);
           PlaceGamePiece(randomPiece.GetComponent<GamePiece>(), i, j);
+          randomPiece.transform.parent = transform;
         }
       }
     }
