@@ -15,7 +15,6 @@ public class Board : MonoBehaviour {
   void Start () {
     m_allTiles = new Tile[width,height];
     m_allGamePieces = new GamePiece[width,height];
-    
     SetupTiles();
     SetupCamera();
     FillRandom();
