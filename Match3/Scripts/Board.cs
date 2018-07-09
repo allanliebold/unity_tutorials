@@ -78,7 +78,6 @@ public class Board : MonoBehaviour {
     for (int i = 0; i < width; i++) {
       for (int j = 0; j < height; j++) {
         GameObject randomPiece = Instantiate(GetRandomGamePiece(), Vector3.zero, Quaternion.identity) as GameObject;
-        
         if(randomPiece != null) {
           randomPiece.GetComponent<GamePiece>().Init(this);
           PlaceGamePiece(randomPiece.GetComponent<GamePiece>(), i, j);
