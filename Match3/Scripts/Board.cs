@@ -2,9 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class Board : MonoBehaviour {
-  public int width;
-  public int height;
-  public int borderSize;
+  public int width, height, borderSize;
   
   public GameObject tilePrefab;
   public GameObject[] gamePiecePrefabs;
