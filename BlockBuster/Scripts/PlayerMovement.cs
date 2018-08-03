@@ -26,5 +26,11 @@ public class PlayerMovement : MonoBehaviour {
     }
   }
   
-  
+  void movePlayer(Vector3 movement) {
+    if (rigidBody.velocity.magnitude * acceleration > maxSpeed) {
+      rigidBody.AddForce (movement * -1); 
+    } else {
+      rigidBody.AddForce (movement);  
+    }
+  }
 }
