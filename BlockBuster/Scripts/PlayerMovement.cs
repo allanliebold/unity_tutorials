@@ -17,6 +17,14 @@ public class PlayerMovement : MonoBehaviour {
   }
   
   void FixedUpdate () {
-    
+    for (int i = 0; i < inputKeys.length; i++) {
+      var key = inputKeys[i];
+      if (Input.GetKey(key)) {
+        Vector3 movement = directionsForKeys[i] * acceleration * Time.deltaTime;
+        movePlayer(movement);
+      }
+    }
   }
+  
+  
 }
