@@ -6,4 +6,8 @@ public class CameraRig : MonoBehaviour {
   public GameObject target;
   
   private Transform rigTransform;
+  
+  void Start () {
+    rigTransform = this.transform.parent;
+  }
 }
