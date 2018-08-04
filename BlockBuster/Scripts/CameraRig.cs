@@ -10,4 +10,10 @@ public class CameraRig : MonoBehaviour {
   void Start () {
     rigTransform = this.transform.parent;
   }
+  
+  void FixedUpdate () {
+    if(target == null) {
+      return; 
+    }
+  }
 }
