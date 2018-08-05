@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour {
   
   void collidedWithEnemy(Enemy enemy) {
     if(health <= 0) {
-      
+      enemy.Attack(this);
     }
   }
   
