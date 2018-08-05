@@ -34,4 +34,14 @@ public class PlayerMovement : MonoBehaviour {
       rigidBody.AddForce (movement);  
     }
   }
+  
+  void collidedWithEnemy(Enemy enemy) {
+    if(health <= 0) {
+      
+    }
+  }
+  
+  void OnCollisionEnter (Collision col) {
+     
+  }
 }
