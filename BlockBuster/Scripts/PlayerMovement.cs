@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour {
   
   public float acceleration;
   public float maxSpeed; 
+  public int health;
   
   private Rigidbody rigidBody;
   private KeyCode[] inputKeys;
