@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour {
   }
   
   public void Attack(Player player) {
-      
+    player.health -= this.damage;
+    Destroy(this.gameObject);
   }
 }
