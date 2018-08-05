@@ -13,4 +13,8 @@ public class Enemy : MonoBehaviour {
       this.transform.position = Vector3.MoveTowards(this.transform.position, targetTransform.transform.position, Time.deltaTime * moveSpeed);
     }
   }
+  
+  public void TakeDamage(int damage) {
+    
+  }
 }
