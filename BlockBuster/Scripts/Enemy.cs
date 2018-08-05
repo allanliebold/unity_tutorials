@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour {
   public Transform targetTransform;
   
   void FixedUpdate() {
-    
+    if(targetTransform != null) {
+      
+    }
   }
 }
