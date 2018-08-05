@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour {
   
   void FixedUpdate() {
     if(targetTransform != null) {
-      
+      this.transform.position = Vector3.MoveTowards(this.transform.position, targetTransform.transform.position, Time.deltaTime * moveSpeed);
     }
   }
 }
