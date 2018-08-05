@@ -42,7 +42,9 @@ public class PlayerMovement : MonoBehaviour {
   }
   
   void OnCollisionEnter (Collision col) {
-     Enemy enemy = col.collider.gameObject.GetComponent<Enemy>();
-    collidedWithEnemy(enemy);
+    Enemy enemy = col.collider.gameObject.GetComponent<Enemy>();
+    if (enemy) {
+      collidedWithEnemy(enemy);
+    }
   }
 }
