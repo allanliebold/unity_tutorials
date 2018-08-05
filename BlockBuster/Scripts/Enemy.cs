@@ -20,4 +20,8 @@ public class Enemy : MonoBehaviour {
       Destroy(this.gameObject); 
     }
   }
+  
+  public void Attack(Player player) {
+      
+  }
 }
