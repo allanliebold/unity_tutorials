@@ -7,4 +7,8 @@ public class Projectile : MonoBehaviour {
   public int damage;
   
   Vector3 shootDirection;
+  
+  void FixedUpdate() {
+    
+  }
 }
