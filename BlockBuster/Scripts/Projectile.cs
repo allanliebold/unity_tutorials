@@ -11,4 +11,8 @@ public class Projectile : MonoBehaviour {
   void FixedUpdate() {
     this.transform.Translate(shootDirection * speed, Space.World);
   }
+  
+  public void FireProjectile(Ray shootRay) {
+    
+  }
 }
