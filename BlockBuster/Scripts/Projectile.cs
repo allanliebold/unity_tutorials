@@ -16,4 +16,8 @@ public class Projectile : MonoBehaviour {
     this.shootDirection = shootRay.direction;
     this.transform.position = shootRay.origin; 
   }
+  
+  void OnCollisionEnter(Collision col) {
+    
+  }
 }
