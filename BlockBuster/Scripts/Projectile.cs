@@ -9,6 +9,6 @@ public class Projectile : MonoBehaviour {
   Vector3 shootDirection;
   
   void FixedUpdate() {
-    
+    this.transform.Translate(shootDirection * speed, Space.World);
   }
 }
