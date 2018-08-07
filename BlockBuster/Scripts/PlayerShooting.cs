@@ -9,4 +9,8 @@ public class PlayerShooting : MonoBehaviour {
   void Start() {
     
   }
+  
+  void FixedUpdate() {
+    
+  }
 }
