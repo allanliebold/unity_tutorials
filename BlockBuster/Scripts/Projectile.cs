@@ -5,7 +5,6 @@ using UnityEngine;
 public class Projectile : MonoBehaviour {
   public float speed;
   public int damage;
-  
   Vector3 shootDirection;
   
   void FixedUpdate() {
