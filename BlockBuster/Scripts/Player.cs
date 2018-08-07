@@ -8,4 +8,8 @@ public class Player : MonoBehaviour {
   void collidedWithEnemy(Enemy enemy) {
     
   }
+  
+  void OnCollisionEnter (Collision col) {
+    
+  }
 }
