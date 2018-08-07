@@ -13,5 +13,6 @@ public class Player : MonoBehaviour {
   
   void OnCollisionEnter (Collision col) {
     Enemy enemy = col.collider.gameObject.GetComponent<Enemy>();
+    collidedWithEnemy(enemy);
   }
 }
