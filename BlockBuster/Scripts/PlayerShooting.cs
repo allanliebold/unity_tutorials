@@ -4,4 +4,5 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour {
   public Projectile projectilePrefab;
+  public LayerMask mask;
 }
