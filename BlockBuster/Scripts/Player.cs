@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
   public int health = 3;
   
   void collidedWithEnemy(Enemy enemy) {
+    enemy.Attack(this);
     if(health <= 0) {
       
     }
