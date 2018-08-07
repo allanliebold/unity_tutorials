@@ -6,7 +6,9 @@ public class Player : MonoBehaviour {
   public int health = 3;
   
   void collidedWithEnemy(Enemy enemy) {
-    
+    if(health <= 0) {
+      
+    }
   }
   
   void OnCollisionEnter (Collision col) {
