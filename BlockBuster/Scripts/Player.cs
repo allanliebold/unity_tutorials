@@ -5,5 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
   public int health = 3;
   
-  void 
+  void collidedWithEnemy(Enemy enemy) {
+    
+  }
 }
