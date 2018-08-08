@@ -11,5 +11,7 @@ public class PlayerShooting : MonoBehaviour {
     var pointAboveFloor = hit.point + new Vector3(0, this.transform.position.y, 0);
     var direction = pointAboveFloor - transform.position;
     var shootRay = new Ray(this.transform.position, direction);
+    
+    Physics.IgnoreCollision(GetComponent<Collider>(), projectile.GetComponent<Collider>());
   }
 }
