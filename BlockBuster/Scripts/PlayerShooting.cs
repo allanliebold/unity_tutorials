@@ -10,5 +10,6 @@ public class PlayerShooting : MonoBehaviour {
     var projectile = Instantiate(projectilePrefab).GetComponent<Projectile>();
     var pointAboveFloor = hit.point + new Vector3(0, this.transform.position.y, 0);
     var direction = pointAboveFloor - transform.position;
+    var shootRay = new Ray(this.transform.position, direction);
   }
 }
