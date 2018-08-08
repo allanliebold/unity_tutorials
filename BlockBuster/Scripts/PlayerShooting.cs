@@ -25,4 +25,11 @@ public class PlayerShooting : MonoBehaviour {
       shoot(hit); 
     }
   }
+  
+  void Update() {
+    bool mouseButtonDown = Input.GetMouseButtonDown(0);
+    if(mouseButtonDown) {
+      raycastOnMouseClick(); 
+    }
+  }
 }
