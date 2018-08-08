@@ -6,11 +6,7 @@ public class PlayerShooting : MonoBehaviour {
   public Projectile projectilePrefab;
   public LayerMask mask;
   
-  void Start() {
-    
-  }
-  
-  void FixedUpdate() {
+  void shoot (RaycastHit hit) {
     
   }
 }
