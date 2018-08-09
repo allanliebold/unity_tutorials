@@ -10,4 +10,11 @@ public class EnemyProducer : MonoBehaviour {
   
   private Bounds spawnArea;
   private GameObject player;
+  
+  public void SpawnEnemies(bool shouldSpawn) {
+    if(shouldSpawn) {
+      player = GameObject.FindGameObjectWithTag("Player");
+    }
+    this.shouldSpawn = shouldSpawn;
+  }
 }
