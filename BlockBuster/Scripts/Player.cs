@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
   void collidedWithEnemy(Enemy enemy) {
     enemy.Attack(this);
     if(health <= 0) {
-      
+      Destroy.this;
     }
   }
   
