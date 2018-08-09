@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour {
   
   public void Initialize(Transform target, float moveSpeed, int health) {
     this.targetTransform = target;
+    this.moveSpeed = moveSpeed;
   }
   
   void FixedUpdate() {
