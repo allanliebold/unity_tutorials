@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
   public Transform targetTransform;
   
   public void Initialize(Transform target, float moveSpeed, int health) {
-    
+    this.targetTransform = target;
   }
   
   void FixedUpdate() {
