@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour {
   public int damage;
   public Transform targetTransform;
   
+  public void Initialize(Transform target, float moveSpeed, int health) {
+    
+  }
+  
   void FixedUpdate() {
     if(targetTransform != null) {
       this.transform.position = Vector3.MoveTowards(this.transform.position, targetTransform.transform.position, Time.deltaTime * moveSpeed);
