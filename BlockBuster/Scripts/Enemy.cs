@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour {
     this.health = health;
   }
   
-  void FixedUpdate() {
+  void FixedUpdate () {
     if(targetTransform != null) {
       this.transform.position = Vector3.MoveTowards(this.transform.position, targetTransform.transform.position, Time.deltaTime * moveSpeed);
     }
