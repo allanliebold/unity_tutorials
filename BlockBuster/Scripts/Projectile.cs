@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour {
   }
   
   void rotateInShootDirection() {
-    Vector3 newRotation;
+    Vector3 newRotation = Vector3.RotateTowards();
   }
   
   void OnCollisionEnter(Collision col) {
