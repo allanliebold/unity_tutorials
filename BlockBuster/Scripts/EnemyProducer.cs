@@ -24,5 +24,7 @@ public class EnemyProducer : MonoBehaviour {
     this.shouldSpawn = shouldSpawn;
   }
   
-
+  Vector3 randomSpawnPosition() {
+    
+  }
 }
