@@ -19,6 +19,6 @@ public class EnemyProducer : MonoBehaviour {
   }
   
   void Start() {
-    
+    spawnArea = this.GetComponent<BoxCollider>().bounds;  
   }
 }
