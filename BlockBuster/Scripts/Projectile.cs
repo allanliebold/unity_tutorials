@@ -16,6 +16,10 @@ public class Projectile : MonoBehaviour {
     this.transform.position = shootRay.origin; 
   }
   
+  void rotateInShootDirection() {
+    
+  }
+  
   void OnCollisionEnter(Collision col) {
     Enemy enemy = col.collider.gameObject.GetComponent<Enemy>();
     if(enemy) {
