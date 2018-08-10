@@ -36,5 +36,7 @@ public class EnemyProducer : MonoBehaviour {
     if(shouldSpawn == false || player == null) {
       return 
     }
+    
+    int index = Random.Range(0, enemyPrefabs.Length);
   }
 }
