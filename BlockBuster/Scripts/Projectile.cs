@@ -11,16 +11,16 @@ public class Projectile : MonoBehaviour {
     this.transform.Translate(shootDirection * speed, Space.World);
   }
   
-  public void FireProjectile(Ray shootRay) {
-    this.shootDirection = shootRay.direction;
-    this.transform.position = shootRay.origin; 
-  }
-  
   void rotateInShootDirection() {
     Vector3 newRotation = Vector3.RotateTowards(transform.forward, shootDirection, 0.01f, 0.0f);
     transform.rotation = Quaternion.LookRotation(newRotation);
   }
   
+  public void FireProjectile(Ray shootRay) {
+    this.shootDirection = shootRay.direction;
+    this.transform.position = shootRay.origin; 
+  }
+    
   void OnCollisionEnter(Collision col) {
     Enemy enemy = col.collider.gameObject.GetComponent<Enemy>();
     if(enemy) {
