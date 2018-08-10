@@ -1,14 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
   public int health = 3;
+  public event Action<Player> onPlayerDeath;
   
   void collidedWithEnemy(Enemy enemy) {
     enemy.Attack(this);
     if(health <= 0) {
-      // Kill player. Respawn. 
+      if(onPlayerDeath != null) {
+        onPlayerDeath(this); 
+      }
     }
   }
   
