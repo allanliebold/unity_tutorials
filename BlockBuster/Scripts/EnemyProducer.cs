@@ -39,5 +39,8 @@ public class EnemyProducer : MonoBehaviour {
     
     int index = Random.Range(0, enemyPrefabs.Length);
     var newEnemy = Instantiate(enemyPrefabs[index], randomSpawnPosition(), Quaternion.identity) as Enemy;
+    newEnemy.Initialize(player.transform, 
+                        Random.Range(moveSpeedRange[0], moveSpeedRange[1]), 
+                        Random.Range(healthRange[0], healthRange[1]));
   }
 }
