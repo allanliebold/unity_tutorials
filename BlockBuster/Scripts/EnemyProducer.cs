@@ -33,6 +33,8 @@ public class EnemyProducer : MonoBehaviour {
   }
   
   void spawnEnemy() {
-    
+    if(shouldSpawn == false || player == null) {
+      return 
+    }
   }
 }
