@@ -25,6 +25,8 @@ public class EnemyProducer : MonoBehaviour {
   }
   
   Vector3 randomSpawnPosition() {
-    
+    float x;
+    float y;
+    float y;
   }
 }
