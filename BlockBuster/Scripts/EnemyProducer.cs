@@ -31,4 +31,8 @@ public class EnemyProducer : MonoBehaviour {
     
     return new Vector3(x, y, z);
   }
+  
+  void spawnEnemy() {
+    
+  }
 }
