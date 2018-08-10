@@ -17,4 +17,8 @@ public class EnemyProducer : MonoBehaviour {
     }
     this.shouldSpawn = shouldSpawn;
   }
+  
+  void Start() {
+    
+  }
 }
