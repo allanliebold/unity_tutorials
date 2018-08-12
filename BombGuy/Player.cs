@@ -10,5 +10,6 @@ public class Player : MonoBehaviour {
                   bombPrefab.transform.position.y, Mathf.RoundToInt(myTransform.position.z)), 
                   bombPrefab.transform.rotation);
     }
+    
   }
 }
