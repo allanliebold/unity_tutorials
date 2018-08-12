@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour {
   public void Start() {
-    
+    Invoke("Explode", 3f);
   }
 }
