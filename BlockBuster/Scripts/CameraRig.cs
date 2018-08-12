@@ -16,7 +16,6 @@ public class CameraRig : MonoBehaviour {
     if(target == null) {
       return; 
     }
-    
     rigTransform.position = Vector3.Lerp(rigTransform.position, target.transform.position, Time.deltaTime * moveSpeed);
   }
 }
