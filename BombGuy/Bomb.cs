@@ -28,7 +28,7 @@ public class Bomb : MonoBehaviour {
   
   private IEnumerator CreateExplosions(Vector3 direction) {
     for (int i = 1; i < 3; i++) {
-      
+      RaycastHit hit;
     }
   }
 }
