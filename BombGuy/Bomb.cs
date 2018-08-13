@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public GameObject explosionPrefab;
-
 public class Bomb : MonoBehaviour {
+  public GameObject explosionPrefab;
+  private bool exploded = false;
+  
   void Start() {
     Invoke("Explode", 3f);
   }
