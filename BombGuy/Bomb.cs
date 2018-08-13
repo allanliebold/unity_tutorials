@@ -20,4 +20,8 @@ public class Bomb : MonoBehaviour {
     transform.Find("Collider").gameObject.SetActive(false);
     Destroy(gameObject, .3f);
   }
+  
+  private IEnumerator CreateExplosions(Vector3 direction) {
+    
+  }
 }
