@@ -40,4 +40,8 @@ public class Bomb : MonoBehaviour {
     
     yield return new WaitForSeconds(.05f);
   }
+  
+  public void OnTriggerEnter(Collider other) {
+    
+  }
 }
