@@ -27,6 +27,8 @@ public class Bomb : MonoBehaviour {
   }
   
   private IEnumerator CreateExplosions(Vector3 direction) {
-    return null;
+    for (int i = 1; i < 3; i++) {
+      
+    }
   }
 }
