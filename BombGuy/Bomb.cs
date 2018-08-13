@@ -18,5 +18,6 @@ public class Bomb : MonoBehaviour {
     
     GetComponent<MeshRenderer>().enabled = false;
     transform.Find("Collider").gameObject.SetActive(false);
+    Destroy(gameObject, .3f);
   }
 }
