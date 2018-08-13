@@ -8,4 +8,12 @@ public class Bomb : MonoBehaviour {
   void Start() {
     Invoke("Explode", 3f);
   }
+  
+  void Update() {
+    
+  }
+  
+  void Explode() {
+    
+  }
 }
