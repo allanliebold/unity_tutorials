@@ -31,5 +31,9 @@ public class Bomb : MonoBehaviour {
       RaycastHit hit;
       Physics.Raycast(transform.position + new Vector3(0, .5f, 0), direction, out hit, i, levelMask);
     }
+    
+    if(!hit.collider) {
+      
+    }
   }
 }
