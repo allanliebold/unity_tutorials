@@ -37,5 +37,7 @@ public class Bomb : MonoBehaviour {
     } else {
        break;
     }
+    
+    yield return new WaitForSeconds(.05f);
   }
 }
