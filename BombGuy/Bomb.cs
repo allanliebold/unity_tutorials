@@ -34,6 +34,8 @@ public class Bomb : MonoBehaviour {
     
     if(!hit.collider) {
       Instantiate(explosionPrefab, transform.position + (i * direction), explosionPrefab.transform.rotation);  
+    } else {
+       
     }
   }
 }
