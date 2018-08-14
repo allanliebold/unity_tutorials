@@ -16,7 +16,7 @@ public class Player : MonoBehaviour {
   private Animator animator;
   
   void Start() {
-    
+    rigidBody = GetComponent<Rigidbody>();
   }
   
   private void DropBomb() {
