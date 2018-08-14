@@ -17,6 +17,8 @@ public class Player : MonoBehaviour {
   
   void Start() {
     rigidBody = GetComponent<Rigidbody>();
+    myTransform = transform;
+    animator = myTransform.Find("PlayerModel").GetComponent<Animator>();
   }
   
   private void DropBomb() {
