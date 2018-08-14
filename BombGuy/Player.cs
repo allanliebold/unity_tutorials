@@ -21,6 +21,23 @@ public class Player : MonoBehaviour {
     animator = myTransform.Find("PlayerModel").GetComponent<Animator>();
   }
   
+  void Update() {
+    UpdateMovement(); 
+  }
+  
+  private void UpdateMovement() {
+    animator.SetBool("Walking", false);
+    if(!canMove) {
+      return; 
+    }
+    
+    if(playerNumber == 1) {
+      UpdatePlayer1Movement(); 
+    } else {
+      UpdatePlayer2Movement();
+    }
+  }
+  
   private void DropBomb() {
     if (bombPrefab) {
       Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x), 
