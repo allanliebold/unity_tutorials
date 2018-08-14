@@ -15,6 +15,10 @@ public class Player : MonoBehaviour {
   private Transform myTransform;
   private Animator animator;
   
+  void Start() {
+    
+  }
+  
   private void DropBomb() {
     if (bombPrefab) {
       Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x), 
