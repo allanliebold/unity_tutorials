@@ -38,6 +38,28 @@ public class Player : MonoBehaviour {
     }
   }
   
+  private void UpdatePlayer1Movement() {
+    if(Input.GetKey(KeyCode.W)) {
+       
+    }
+       
+    if(Input.GetKey(KeyCode.A)) {
+      
+    }
+       
+    if(Input.GetKey(KeyCode.S)) {
+      
+    }
+       
+    if(Input.GetKey(KeyCode.D)) {
+      
+    }
+    
+    if(canDropBombs && Input.GetKeyDown(KeyCode.Space) {
+      DropBomb(); 
+    }
+  }
+  
   private void DropBomb() {
     if (bombPrefab) {
       Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x), 
