@@ -52,11 +52,15 @@ public class Player : MonoBehaviour {
     }
        
     if(Input.GetKey(KeyCode.S)) {
-      
+      rigidBody.velocity = new Vector3(rigidBody.velocity.x, rigidBody.velocity.y, -moveSpeed);
+      myTransform.rotation = Quaternion.Euler(0, 180, 0);
+      animator.SetBool("Walking", true);
     }
        
     if(Input.GetKey(KeyCode.D)) {
-      
+      rigidBody.velocity = new Vector3(moveSpeed, rigidBody.velocity.y, rigidBody.velocity.z);
+      myTransform.rotation = Quaternion.Euler(0, 90, 0);
+      animator.SetBool("Walking", true);
     }
     
     if(canDropBombs && Input.GetKeyDown(KeyCode.Space) {
@@ -64,12 +68,19 @@ public class Player : MonoBehaviour {
     }
   }
   
+  // private void UpdatePlayer2Movement() { use arrow keys UpArrow, LeftArrow, DownArrow, RightArrow } 
+  
   private void DropBomb() {
     if (bombPrefab) {
       Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x), 
                   bombPrefab.transform.position.y, Mathf.RoundToInt(myTransform.position.z)), 
                   bombPrefab.transform.rotation);
     }
-    
+  }
+
+  public void OnTriggerEnter(Collider other) {
+    if(other.CompareTag("Explosion")) {
+      Debug.Log("P" + playerNumber + " hit by explosion!");
+    }
   }
 }
