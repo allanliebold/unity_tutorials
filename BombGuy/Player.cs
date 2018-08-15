@@ -80,6 +80,14 @@ public class Player : MonoBehaviour {
       myTransform.rotation = Quaternion.Euler(0, 270, 0);
       animator.SetBool("Walking", true);
     }
+    
+    if(Input.GetKey(KeyCode.DownArrow)) {
+        
+    }
+    
+    if(Input.GetKey(KeyCode.RightArrow)) {
+      
+    }
   }
        
   private void DropBomb() {
