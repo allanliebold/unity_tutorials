@@ -88,7 +88,9 @@ public class Player : MonoBehaviour {
     }
     
     if(Input.GetKey(KeyCode.RightArrow)) {
-      
+      rigidBody.velocity = new Vector3(moveSpeed, rigidBody.velocity.y, rigidBody.velocity.z);
+      myTransform.rotation = Quaternion.Euler(0, 90, 0);
+      animator.SetBool("Walking", true);
     }
     
     if(Input.GetKey(KeyCode.Enter || KeyCode.Return)) {
