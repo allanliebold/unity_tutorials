@@ -69,7 +69,10 @@ public class Player : MonoBehaviour {
   }
   
   // private void UpdatePlayer2Movement() { use arrow keys UpArrow, LeftArrow, DownArrow, RightArrow } 
-  
+  private void UpdatePlayer2Movement() {
+    
+  }
+       
   private void DropBomb() {
     if (bombPrefab) {
       Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x), 
