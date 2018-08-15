@@ -68,7 +68,6 @@ public class Player : MonoBehaviour {
     }
   }
   
-  // private void UpdatePlayer2Movement() { use arrow keys UpArrow, LeftArrow, DownArrow, RightArrow } 
   private void UpdatePlayer2Movement() {
     if(Input.GetKey(KeyCode.UpArrow)) {
       rigidBody.velocity = new Vector3 (rigidBody.velocity.x, rigidBody.velocity.y, moveSpeed);
