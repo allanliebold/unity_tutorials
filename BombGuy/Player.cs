@@ -88,6 +88,10 @@ public class Player : MonoBehaviour {
     if(Input.GetKey(KeyCode.RightArrow)) {
       
     }
+    
+    if(Input.GetKey(KeyCode.Enter || KeyCode.Return)) {
+      
+    }
   }
        
   private void DropBomb() {
