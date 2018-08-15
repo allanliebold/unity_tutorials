@@ -74,6 +74,12 @@ public class Player : MonoBehaviour {
       myTransform.rotation = Quaternion.Euler(0, 0, 0);
       animator.SetBool("Walking", true);
     }
+    
+    if(Input.GetKey(KeyCode.LeftArrow)) {
+      rigidBody.velocity = new Vector3(-moveSpeed, rigidBody.velocity.y, rigidBody.velocity.z);
+      myTransform.rotation = Quaternion.Euler(0, 270, 0);
+      animator.SetBool("Walking", true);
+    }
   }
        
   private void DropBomb() {
