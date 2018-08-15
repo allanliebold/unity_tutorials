@@ -93,8 +93,8 @@ public class Player : MonoBehaviour {
       animator.SetBool("Walking", true);
     }
     
-    if(Input.GetKey(KeyCode.Enter || KeyCode.Return)) {
-      
+    if(canDropBombs && Input.GetKey(KeyCode.Enter)) {
+      DropBomb();
     }
   }
        
