@@ -44,7 +44,7 @@ public class Bomb : MonoBehaviour {
   
   public void OnTriggerEnter(Collider other) {
     if (!exploded && other.CompareTag("Explosion")) {
-      
+      CancelInvoke("Explode");
     }
   }
 }
