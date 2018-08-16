@@ -7,5 +7,9 @@ public class GlobalStateManager : MonoBehaviour {
   
   public void PlayerDied(int playerNumber) {
     deadPlayers++;
+    
+    if (deadPlayers == 1) {
+      
+    }
   }
 }
