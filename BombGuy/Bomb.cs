@@ -23,6 +23,7 @@ public class Bomb : MonoBehaviour {
     StartCoroutine(CreateExplosions(Vector3.left));
     
     GetComponent<MeshRenderer>().enabled = false;
+    exploded = true;
     transform.Find("Collider").gameObject.SetActive(false);
     Destroy(gameObject, .3f);
   }
