@@ -111,6 +111,7 @@ public class Player : MonoBehaviour {
   public void OnTriggerEnter(Collider other) {
     if(other.CompareTag("Explosion")) {
       Debug.Log("P" + playerNumber + " hit by explosion!");
+      dead = true;
     }
   }
 }
