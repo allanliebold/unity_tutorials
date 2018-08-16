@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
+  public GlobalStateManager globalManager;
   [Range (1, 2)]
   public int playerNumber = 1; 
   public float moveSpeed = 5f;
