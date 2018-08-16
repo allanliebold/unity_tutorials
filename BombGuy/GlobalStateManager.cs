@@ -6,6 +6,6 @@ public class GlobalStateManager : MonoBehaviour {
   private int deadPlayerNumber = -1;
   
   public void PlayerDied(int playerNumber) {
-    
+    deadPlayers++;
   }
 }
