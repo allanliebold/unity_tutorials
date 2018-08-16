@@ -113,6 +113,7 @@ public class Player : MonoBehaviour {
       Debug.Log("P" + playerNumber + " hit by explosion!");
       dead = true;
       globalManager.PlayerDied(playerNumber);
+      Destroy(gameObject);
     }
   }
 }
