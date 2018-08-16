@@ -112,6 +112,7 @@ public class Player : MonoBehaviour {
     if(other.CompareTag("Explosion")) {
       Debug.Log("P" + playerNumber + " hit by explosion!");
       dead = true;
+      globalManager.PlayerDied(playerNumber);
     }
   }
 }
