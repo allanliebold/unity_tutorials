@@ -7,5 +7,6 @@ class PowerUpStar : PowerUp {
   
   protected override void PowerUpPayload() {
     base.PowerUpPayload(); 
+    playerBrain.SetHealthAdjustment(healthBonus);
   }
 }
