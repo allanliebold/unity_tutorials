@@ -27,9 +27,7 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     void IMainGameEvents.OnGameLost ()
     {
-        // Remove from physics (no collisions, no movement) if game over
         rigidBody.simulated = false;
-        // We lose our yellow color
         spriteRenderer.color = Color.grey;
     }
 
