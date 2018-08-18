@@ -13,7 +13,7 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
     private SpriteRenderer spriteRenderer;
     private GameObject particleContactInstance;
     private ParticleSystem particleSystemContactInstance;
-    // particle system from above gameobject
+    
     private int playerHitPoints;
     private float speedOriginal;
     private bool isPlayerInvulnerable;
