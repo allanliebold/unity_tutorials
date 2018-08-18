@@ -2,11 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-/// <summary>
-/// Responsible for detecting and acting on player collisions
-/// Sends messages to any listeners of IPlayerEvents
-/// Listens to main game controller and freezes player when game over
-/// </summary>
 public class PlayerBrain : MonoBehaviour, IMainGameEvents
 {
     public float speed = 2.2f;
