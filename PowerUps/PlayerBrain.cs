@@ -57,9 +57,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
         SendPlayerHurtMessages ();
     }
 
-    /// <summary>
-    /// Send message to listenrs that player has lost some health
-    /// </summary>
     private void SendPlayerHurtMessages ()
     {
         // Send message to any listeners
