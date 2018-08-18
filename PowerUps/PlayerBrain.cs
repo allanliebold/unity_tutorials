@@ -59,7 +59,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     private void SendPlayerHurtMessages ()
     {
-        // Send message to any listeners
         foreach (GameObject go in EventSystemListeners.main.listeners)
         {
             ExecuteEvents.Execute<IPlayerEvents> (go, null, (x, y) => x.OnPlayerHurt (playerHitPoints));
