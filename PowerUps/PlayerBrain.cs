@@ -22,7 +22,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     void IMainGameEvents.OnGameWon ()
     {
-        // Remove from physics (no collisions, no movement) if game over
         rigidBody.simulated = false;
     }
 
