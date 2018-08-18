@@ -144,7 +144,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
     // update is called once per frame
     private void Update ()
     {
-        // We poll for movement here as opposed to FixedUpdate so we dont miss any frames
         horizSpeed = Input.GetAxis ("Horizontal") * speed;
         vertSpeed = Input.GetAxis ("Vertical") * speed;
     }
