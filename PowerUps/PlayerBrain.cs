@@ -37,7 +37,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
         spriteRenderer = GetComponent<SpriteRenderer> ();
     }
 
-    // Use this for initialization
     void Start ()
     {
         playerHitPoints = 100;
