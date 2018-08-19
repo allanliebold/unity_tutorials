@@ -110,7 +110,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     private void SpawnCollisionParticles (Vector3 pos, Quaternion rot)
     {
-        // Just one system that we keep re-using (if it is in use we don't spawn any particles)
         if (particleContactPrefab != null)
         {
             if (particleContactInstance == null)
