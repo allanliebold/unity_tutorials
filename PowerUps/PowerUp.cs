@@ -32,4 +32,8 @@ public class PowerUp : MonoBehaviour {
   protected virtual void OnTriggerEnter2D(Collider2D other) {
     PowerUpCollected(other.gameObject); 
   }
+  
+  protected virtual void OnTriggerEnter(Collider other) {
+    PowerUpCollected(other.gameObject); 
+  }
 }
