@@ -55,5 +55,9 @@ public class PowerUp : MonoBehaviour {
     
     PowerUpEffects();
     PowerUpPayload();
+    
+    foreach(GameObject go in EventSystemListeners.main.listeners) {
+      ExecuteEvents.Execute<IPowerUpEvents>(go, null, (x,y) => x.OnPowerUpCollected(this, playerBrain)); 
+    }
   }
 }
