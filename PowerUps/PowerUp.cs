@@ -38,6 +38,8 @@ public class PowerUp : MonoBehaviour {
   }
   
   protected virtual void PowerUpCollected(GameObject gameObjectCollectingPowerUp) {
-    
+    if(gameObjectCollectingPowerUp.tag != "Player") {
+      return; 
+    }
   }
 }
