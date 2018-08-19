@@ -59,5 +59,7 @@ public class PowerUp : MonoBehaviour {
     foreach(GameObject go in EventSystemListeners.main.listeners) {
       ExecuteEvents.Execute<IPowerUpEvents>(go, null, (x,y) => x.OnPowerUpCollected(this, playerBrain)); 
     }
+    
+    spriteRenderer.enabled = false;
   }
 }
