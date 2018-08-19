@@ -49,5 +49,8 @@ public class PowerUp : MonoBehaviour {
     powerUpState = PowerUpState.IsCollected;
     
     playerBrain = gameObjectCollectingPowerUp.GetComponent<PlayerBrain>();
+    
+    gameObject.transform.parent = playerBrain.gameObject.transform;
+    gameObject.transform.position = playerBrain.gameObject.transform.position;
   }
 }
