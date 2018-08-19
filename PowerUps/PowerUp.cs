@@ -80,5 +80,9 @@ public class PowerUp : MonoBehaviour {
     }
   }
   
-  
+  protected virtual void PowerUpHasExpired() {
+    if(powerUpState == PowerUpState.IsExpiring) {
+      return; 
+    }
+  }
 }
