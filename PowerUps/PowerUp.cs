@@ -84,5 +84,16 @@ public class PowerUp : MonoBehaviour {
     if(powerUpState == PowerUpState.IsExpiring) {
       return; 
     }
+    powerUpState = PowerUpState.IsExpiring;
+    
+    foreach(GameObject go in EventSystemListeners.main.listeners) {
+      ExecuteEvents.Execute<IPowerUpEvents>(go, null, (x,y) => x.OnPowerUpExpired(this, playerBrain)); 
+    }
+    Debug.Log("Power Up has expired, removing after a delay for: " + gameObject.name);
+    DestroySelfAfterDelay();
+  }
+  
+  protected virtual void DestroySelfAfterDelay() {
+    Destroy(gameObject, 10f); 
   }
 }
