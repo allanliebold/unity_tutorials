@@ -41,5 +41,9 @@ public class PowerUp : MonoBehaviour {
     if(gameObjectCollectingPowerUp.tag != "Player") {
       return; 
     }
+    
+    if(powerUpState == PowerUpState.IsCollected || powerUpState == PowerUpState.IsExpiring) {
+      return;  
+    }
   }
 }
