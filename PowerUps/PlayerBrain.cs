@@ -127,8 +127,7 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
             }
         }
     }
-
-    // update is called once per frame
+    
     private void Update ()
     {
         horizSpeed = Input.GetAxis ("Horizontal") * speed;
