@@ -73,4 +73,12 @@ public class PowerUp : MonoBehaviour {
     }
   }
 
+  protected virtual void PowerUpPayload() {
+    Debug.Log("Power Up collected, issuing payload for: " + gameObject.name);
+    if(expiresImmediately) {
+      PowerUpHasExpired(); 
+    }
+  }
+  
+  
 }
