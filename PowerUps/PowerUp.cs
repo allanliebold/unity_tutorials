@@ -19,5 +19,6 @@ public class PowerUp : MonoBehaviour {
     IsExpiring
   }
   
+  protected PowerUpState powerUpState;
   
 }
