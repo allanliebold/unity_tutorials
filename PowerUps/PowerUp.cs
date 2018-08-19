@@ -12,4 +12,12 @@ public class PowerUp : MonoBehaviour {
   
   protected PlayerBrain playerBrain;
   protected SpriteRenderer spriteRenderer;
+  
+  protected enum PowerUpState {
+    InAttractMode,
+    IsCollected,
+    IsExpiring
+  }
+  
+  
 }
