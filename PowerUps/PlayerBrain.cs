@@ -93,7 +93,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            // Lose health only if we're not invulnerable
             if (!isPlayerInvulnerable)
             {
                 if (soundEffectEnemyContact != null)
