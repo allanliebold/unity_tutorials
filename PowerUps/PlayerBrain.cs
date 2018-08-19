@@ -100,7 +100,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
                     MainGameController.main.PlaySound (soundEffectEnemyContact);
                 }
 
-                // Some small collision particles
                 SpawnCollisionParticles (collision.transform.position, collision.transform.rotation);
 
                 SetHealthAdjustment (-damageFromEnemyContact);
@@ -120,7 +119,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
             {
                 if (!particleSystemContactInstance.IsAlive ())
                 {
-                    // Reuse existing particle system
                     particleContactInstance.transform.SetPositionAndRotation (pos, rot);
                     particleSystemContactInstance.Play ();
                 }
