@@ -24,4 +24,8 @@ public class PowerUp : MonoBehaviour {
   protected virtual void Awake() {
     spriteRenderer = GetComponent<SpriteRenderer>();
   }
+  
+  protected virtual void Start() {
+    powerUpState = PowerUpState.InAttractMode; 
+  }
 }
