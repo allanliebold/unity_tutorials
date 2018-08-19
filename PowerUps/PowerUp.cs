@@ -22,6 +22,6 @@ public class PowerUp : MonoBehaviour {
   protected PowerUpState powerUpState;
   
   protected virtual void Awake() {
-    
+    spriteRenderer = GetComponent<SpriteRenderer>();
   }
 }
