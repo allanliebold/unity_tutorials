@@ -11,4 +11,5 @@ public class PowerUp : MonoBehaviour {
   public AudioClip soundEffect;
   
   protected PlayerBrain playerBrain;
+  protected SpriteRenderer spriteRenderer;
 }
