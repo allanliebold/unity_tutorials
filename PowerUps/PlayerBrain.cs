@@ -114,7 +114,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
         {
             if (particleContactInstance == null)
             {
-                // First time usage
                 particleContactInstance = Instantiate (particleContactPrefab, pos, rot, transform);
                 particleSystemContactInstance = particleContactInstance.GetComponent<ParticleSystem> ();
             } else
