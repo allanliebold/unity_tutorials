@@ -36,4 +36,8 @@ public class PowerUp : MonoBehaviour {
   protected virtual void OnTriggerEnter(Collider other) {
     PowerUpCollected(other.gameObject); 
   }
+  
+  protected virtual void PowerUpCollected(GameObject gameObjectCollectingPowerUp) {
+    
+  }
 }
