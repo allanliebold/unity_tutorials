@@ -9,4 +9,6 @@ public class PowerUp : MonoBehaviour {
   public bool expiresImmediately;
   public GameObject specialEffect;
   public AudioClip soundEffect;
+  
+  protected PlayerBrain playerBrain;
 }
