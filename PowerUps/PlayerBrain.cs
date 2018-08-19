@@ -91,7 +91,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     private void OnCollisionEnter2D (Collision2D collision)
     {
-        // What did we hit?
         if (collision.gameObject.tag == "Enemy")
         {
             // Lose health only if we're not invulnerable
