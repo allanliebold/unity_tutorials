@@ -52,5 +52,8 @@ public class PowerUp : MonoBehaviour {
     
     gameObject.transform.parent = playerBrain.gameObject.transform;
     gameObject.transform.position = playerBrain.gameObject.transform.position;
+    
+    PowerUpEffects();
+    PowerUpPayload();
   }
 }
