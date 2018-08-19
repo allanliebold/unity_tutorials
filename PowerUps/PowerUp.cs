@@ -28,4 +28,8 @@ public class PowerUp : MonoBehaviour {
   protected virtual void Start() {
     powerUpState = PowerUpState.InAttractMode; 
   }
+  
+  protected virtual void OnTriggerEnter2D(Collider2D other) {
+    PowerUpCollected(other.gameObject); 
+  }
 }
