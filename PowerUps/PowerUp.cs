@@ -62,4 +62,15 @@ public class PowerUp : MonoBehaviour {
     
     spriteRenderer.enabled = false;
   }
+  
+  protected virtual void PowerUpEffects() {
+    if(specialEffect !=null) {
+      Instantiate(specialEffect, transform.position, transform.rotation, transform); 
+    }
+    
+    if(soundEffect != null) {
+      MainGameController.main.PlaySound(soundEffect); 
+    }
+  }
+
 }
