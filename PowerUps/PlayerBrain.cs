@@ -138,7 +138,6 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
 
     private void FixedUpdate ()
     {
-        // Movement
         rigidBody.velocity = new Vector2 (horizSpeed, vertSpeed);
     }
 }
