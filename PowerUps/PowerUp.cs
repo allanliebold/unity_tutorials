@@ -47,5 +47,7 @@ public class PowerUp : MonoBehaviour {
     }
     
     powerUpState = PowerUpState.IsCollected;
+    
+    playerBrain = gameObjectCollectingPowerUp.GetComponent<PlayerBrain>();
   }
 }
