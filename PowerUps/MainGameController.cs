@@ -37,7 +37,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
 
     void IPlayerEvents.OnPlayerHurt (int newHealth)
     {
-        // If game is already over, don't do anything
         if (mainGameState == MainGameState.GameOver)
         {
             return;
