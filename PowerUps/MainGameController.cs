@@ -77,7 +77,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
 
     void IPowerUpEvents.OnPowerUpCollected (PowerUp powerUp, PlayerBrain player)
     {
-        // We dont bother storing those that expire immediately
         if (!powerUp.expiresImmediately)
         {
             activePowerUps.Add (powerUp);
