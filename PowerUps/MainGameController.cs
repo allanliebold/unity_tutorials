@@ -71,7 +71,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
             Instantiate (specialEffectWin, exit.transform.position, exit.transform.rotation, exit.transform);
         }
 
-        // UI and message broadcasting
         GameOverWin ();
     }
 
