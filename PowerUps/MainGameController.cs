@@ -57,7 +57,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
 
     void IPlayerEvents.OnPlayerReachedExit (GameObject exit)
     {
-        // If game is already over, don't do anything
         if (mainGameState == MainGameState.GameOver)
         {
             return;
