@@ -7,9 +7,6 @@ public class EnemyBrain : MonoBehaviour
     [Tooltip ("Radius of circle around current pos where next waypoint will be")]
     public float nextWaypointRadius;
 
-    /// <summary>
-    /// If this close to waypoint, then deemed to be AT the waypoint
-    /// </summary>
     [Tooltip ("If this close to waypoint, then deemed to be AT the waypoint")]
     public float closeEnoughToWaypoint;
 
