@@ -4,9 +4,6 @@ public class EnemyBrain : MonoBehaviour
 {
     public float speed;
 
-    /// <summary>
-    /// Radius of circle around current pos where next waypoint will be
-    /// </summary>
     [Tooltip ("Radius of circle around current pos where next waypoint will be")]
     public float nextWaypointRadius;
 
