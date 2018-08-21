@@ -21,9 +21,6 @@ public class EnemyBrain : MonoBehaviour
     private float moveTimer;
     private Rigidbody2D rigidBody;
 
-    /// <summary>
-    /// Internal record of movement state
-    /// </summary>
     private MovementState movementState = MovementState.Idle;
 
     private enum MovementState
@@ -62,9 +59,6 @@ public class EnemyBrain : MonoBehaviour
 
     void FixedUpdate ()
     {
-        //------------------------------------------------------------------------------------------
-        // Execute every tick
-        //------------------------------------------------------------------------------------------
         timeToDestinationTimer -= Time.fixedDeltaTime;
         switch (movementState)
         {
@@ -72,7 +66,6 @@ public class EnemyBrain : MonoBehaviour
             break;
 
         case MovementState.Moving:
-            // If it has taken too long to get to destination, then lets choose a new WP
             if (timeToDestinationTimer < 0)
             {
                 movementState = MovementState.Idle;
@@ -83,10 +76,7 @@ public class EnemyBrain : MonoBehaviour
         default:
             break;
         }
-
-        //------------------------------------------------------------------------------------------
-        // Only execute once per movement, and only when stationary
-        //------------------------------------------------------------------------------------------
+        
         moveTimer -= Time.fixedDeltaTime;
         if (moveTimer < 0 && rigidBody.velocity.magnitude < 0.1f)
         {
