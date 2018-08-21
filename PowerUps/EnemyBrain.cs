@@ -10,15 +10,9 @@ public class EnemyBrain : MonoBehaviour
     [Tooltip ("If this close to waypoint, then deemed to be AT the waypoint")]
     public float closeEnoughToWaypoint;
 
-    /// <summary>
-    /// Minimum time delay between movements (will sit at rest waiting)
-    /// </summary>
     [Tooltip ("Minimum time delay between movements")]
     public float minMovementTime;
 
-    /// <summary>
-    /// Max time allowed to reach destination. If this is exceeded a new WP is chosen
-    /// </summary>
     [Tooltip ("Max time allowed to reach destination. If this is exceeded a new WP is chosen")]
     public float maxTimeToDestination;
 
