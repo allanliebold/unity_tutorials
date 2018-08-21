@@ -1,13 +1,7 @@
 using UnityEngine;
 
-/// <summary>
-/// Responsible for moving the enemies
-/// </summary>
 public class EnemyBrain : MonoBehaviour
 {
-    /// <summary>
-    /// Movement speed
-    /// </summary>
     public float speed;
 
     /// <summary>
