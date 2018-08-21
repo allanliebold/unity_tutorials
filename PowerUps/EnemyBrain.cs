@@ -116,7 +116,6 @@ public class EnemyBrain : MonoBehaviour
                     movementState = MovementState.Idle;
                 }
 
-               // Move!
                 Vector3 desiredDir = nextWaypoint - currentPos;
                 desiredDir.Normalize ();
                 rigidBody.AddForce (desiredDir * speed);
