@@ -25,7 +25,6 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
 
     void Update ()
     {
-        // Move health bar to its target
         if (actualValue < targetValue)
         {
             actualValue++;
