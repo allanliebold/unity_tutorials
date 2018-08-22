@@ -5,9 +5,6 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
 {
     private Image foregroundImage;
 
-    /// <summary>
-    /// The value we want to smoothly move to
-    /// </summary>
     private int targetValue;
 
     /// <summary>
