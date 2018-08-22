@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Smoothly move the health bar to the target value
-/// </summary>
 public class HealthBar : MonoBehaviour, IPlayerEvents
 {
     private Image foregroundImage;
