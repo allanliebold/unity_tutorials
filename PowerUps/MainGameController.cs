@@ -132,7 +132,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
 
     void Update ()
     {
-        // If game is over, we can restart
         if (mainGameState == MainGameState.GameOver)
         {
             if (Input.GetKeyDown (KeyCode.Space))
