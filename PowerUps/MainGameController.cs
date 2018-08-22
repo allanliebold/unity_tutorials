@@ -125,7 +125,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
         }
     }
 
-    // Use this for initialization
     void Start ()
     {
         mainGameState = MainGameState.Playing;
