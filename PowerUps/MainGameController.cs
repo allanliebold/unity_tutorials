@@ -49,7 +49,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
                 PlaySound (soundEffectLose);
             }
 
-            // UI and message broadcasting
             GameOverLose ();
         }
     }
