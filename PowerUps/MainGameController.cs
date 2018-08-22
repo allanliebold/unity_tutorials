@@ -130,7 +130,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
         UpdateActivePowerUpUi ();
     }
 
-    // Update is called once per frame
     void Update ()
     {
         // If game is over, we can restart
