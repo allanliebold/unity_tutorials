@@ -169,7 +169,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
     {
         mainGameState = MainGameState.GameOver;
       
-        // UI
         uiText.text = "GAME OVER";
         uiSubtext.text = "Press Space to Restart";
         uiTextDisplayTimer = Mathf.Infinity;  // never fade this
