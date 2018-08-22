@@ -23,7 +23,6 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
     {
     }
 
-    // Update is called once per frame
     void Update ()
     {
         // Move health bar to its target
