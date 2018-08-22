@@ -108,9 +108,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
         }
     }
 
-    /// <summary>
-    /// Check we are singleton
-    /// </summary>
     private void Awake ()
     {
         if (main == null)
