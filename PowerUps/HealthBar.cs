@@ -7,9 +7,6 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
 
     private int targetValue;
 
-    /// <summary>
-    /// The value used by the bar image
-    /// </summary>
     private int actualValue;
 
     void IPlayerEvents.OnPlayerHurt (int newHealth)
