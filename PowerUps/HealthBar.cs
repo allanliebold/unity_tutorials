@@ -9,7 +9,6 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
 
     void IPlayerEvents.OnPlayerHurt (int newHealth)
     {
-        // clamp
         if (newHealth < 0)
         {
             newHealth = 0;
