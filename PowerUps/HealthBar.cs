@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour, IPlayerEvents
 {
     private Image foregroundImage;
-
     private int targetValue;
 
     private int actualValue;
