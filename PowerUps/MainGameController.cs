@@ -140,7 +140,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
             }
         }
 
-        // Fade away UI text in the last second of its life
         uiTextDisplayTimer -= Time.deltaTime;
         if (uiTextDisplayTimer < 1)
         {
@@ -172,7 +171,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
         uiSubtext.text = "Press Space to Restart";
         uiTextDisplayTimer = Mathf.Infinity;  // never fade this
 
-        // Send message to any listeners
         foreach (GameObject go in EventSystemListeners.main.listeners)
         {
             ExecuteEvents.Execute<IMainGameEvents> (go, null, (x, y) => x.OnGameLost ());
