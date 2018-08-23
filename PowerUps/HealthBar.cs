@@ -22,11 +22,9 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
 
     void Update ()
     {
-        if (actualValue < targetValue)
-        {
+        if (actualValue < targetValue) {
             actualValue++;
-        } else if (actualValue > targetValue)
-        {
+        } else if (actualValue > targetValue) {
             actualValue--;
         }
 
