@@ -31,7 +31,6 @@ public class EnemyBrain : MonoBehaviour
 
     private void Awake ()
     {
-        // Refs
         rigidBody = GetComponent<Rigidbody2D> ();
 
         // Ready to go
