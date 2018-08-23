@@ -33,7 +33,6 @@ public class EnemyBrain : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D> ();
 
-        // Ready to go
         movementState = MovementState.Idle;
         timeToDestinationTimer = maxTimeToDestination;
     }
