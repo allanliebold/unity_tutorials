@@ -185,7 +185,6 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
         uiSubtext.text = "Press Space to Restart";
         uiTextDisplayTimer = Mathf.Infinity;  // never fade this
     
-        // Send message to any listeners
         foreach (GameObject go in EventSystemListeners.main.listeners)
         {
             ExecuteEvents.Execute<IMainGameEvents> (go, null, (x, y) => x.OnGameWon ());
