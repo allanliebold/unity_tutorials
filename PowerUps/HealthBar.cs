@@ -7,12 +7,10 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
     private int targetValue;
     private int actualValue;
 
-    void IPlayerEvents.OnPlayerHurt (int newHealth)
-    {
+    void IPlayerEvents.OnPlayerHurt (int newHealth) {
         if (newHealth < 0) {
             newHealth = 0;
-        } else if (newHealth > 100)
-        {
+        } else if (newHealth > 100) {
             newHealth = 100;
         }
         targetValue = newHealth;
