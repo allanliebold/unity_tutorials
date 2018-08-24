@@ -19,8 +19,7 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
     void IPlayerEvents.OnPlayerReachedExit (GameObject exit) {
     }
 
-    void Update ()
-    {
+    void Update () {
         if (actualValue < targetValue) {
             actualValue++;
         } else if (actualValue > targetValue) {
