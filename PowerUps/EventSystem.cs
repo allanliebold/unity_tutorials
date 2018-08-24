@@ -33,8 +33,7 @@ public class EventSystemListeners : MonoBehaviour
         }
     }
 
-    void Update ()
-    {
+    void Update () {
 
     }
 }
