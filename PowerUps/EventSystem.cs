@@ -10,11 +10,9 @@ public class EventSystemListeners : MonoBehaviour
 
     private void Awake ()
     {
-        if (main == null)
-        {
+        if (main == null) {
             main = this;
-        } else
-        {
+        } else {
             Debug.LogWarning ("EventSystemListeners re-creation attempted, destroying the new one");
             Destroy (gameObject);
         }
