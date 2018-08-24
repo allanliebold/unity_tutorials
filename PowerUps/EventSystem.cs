@@ -17,8 +17,7 @@ public class EventSystemListeners : MonoBehaviour
         }
     }
 
-    void Start ()
-    {
+    void Start () {
         if (listeners == null) {
             listeners = new List<GameObject> ();
         }
