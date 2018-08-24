@@ -26,8 +26,7 @@ public class EventSystemListeners : MonoBehaviour
         listeners.AddRange (gos);
     }
 
-    public void AddListener (GameObject go)
-    {
+    public void AddListener (GameObject go) {
         if (!listeners.Contains (go)) {
             listeners.Add (go);
         }
