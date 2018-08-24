@@ -8,8 +8,7 @@ public class EventSystemListeners : MonoBehaviour
     [Tooltip ("Listeners that want to know about messages.  By default any object with tag = Listener is included, but you can add more here, or add at runtime with method EventSystemListeners.main.AddListener()")]
     public List<GameObject> listeners;
 
-    private void Awake ()
-    {
+    private void Awake () {
         if (main == null) {
             main = this;
         } else {
