@@ -16,8 +16,7 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
         targetValue = newHealth;
     }
 
-    void IPlayerEvents.OnPlayerReachedExit (GameObject exit)
-    {
+    void IPlayerEvents.OnPlayerReachedExit (GameObject exit) {
     }
 
     void Update ()
