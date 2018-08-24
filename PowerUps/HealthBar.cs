@@ -35,8 +35,7 @@ public class HealthBar : MonoBehaviour, IPlayerEvents {
         foregroundImage = gameObject.GetComponent<Image> ();
     }
 
-    private void Start ()
-    {
+    private void Start () {
         actualValue = 100;
         targetValue = 100;
     }
