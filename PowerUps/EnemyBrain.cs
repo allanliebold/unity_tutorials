@@ -43,7 +43,6 @@ public class EnemyBrain : MonoBehaviour
         nextWaypoint = currentPos + UnityEngine.Random.insideUnitCircle.normalized * nextWaypointRadius;
     }
 
-    // Use this for initialization
     void Start ()
     {
 
