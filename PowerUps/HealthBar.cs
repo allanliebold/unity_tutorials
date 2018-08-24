@@ -26,8 +26,7 @@ public class HealthBar : MonoBehaviour, IPlayerEvents
             actualValue--;
         }
 
-        if (foregroundImage != null)
-        {
+        if (foregroundImage != null) {
             foregroundImage.fillAmount = actualValue / 100f;
         }
     }
