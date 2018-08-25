@@ -31,6 +31,7 @@ public class BoardManager : MonoBehaviour {
 				tiles[x, y] = newTile;
 				newTile.transform.parent = transform;
 				Sprite newSprite = characters[Random.Range(0, characters.Count)];
+				newTile.GetComponent<SpriteRenderer>().sprite = newSprite;
 			}
         }
     }
