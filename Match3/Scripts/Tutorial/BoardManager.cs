@@ -25,7 +25,7 @@ public class BoardManager : MonoBehaviour {
         float startX = transform.position.x;
 		float startY = transform.position.y;
 		Sprite[] previousLeft = new Sprite[ySize];
-		Sprite;
+		Sprite previousBelow = null;
 		
 		for (int x = 0; x < xSize; x++) {
 			for (int y = 0; y < ySize; y++) {
