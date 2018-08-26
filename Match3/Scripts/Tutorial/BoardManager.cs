@@ -34,6 +34,7 @@ public class BoardManager : MonoBehaviour {
 				newTile.transform.parent = transform;
 				
 				List<Sprite> possibleCharacters = new List<Sprite>();
+				possibleCharacters.AddRange(characters);
 				
 				Sprite newSprite = characters[Random.Range(0, characters.Count)];
 				newTile.GetComponent<SpriteRenderer>().sprite = newSprite;
