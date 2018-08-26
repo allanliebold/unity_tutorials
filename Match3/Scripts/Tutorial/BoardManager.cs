@@ -24,7 +24,8 @@ public class BoardManager : MonoBehaviour {
 
         float startX = transform.position.x;
 		float startY = transform.position.y;
-
+		Sprite[];
+		
 		for (int x = 0; x < xSize; x++) {
 			for (int y = 0; y < ySize; y++) {
 				GameObject newTile = Instantiate(tile, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), tile.transform.rotation);
