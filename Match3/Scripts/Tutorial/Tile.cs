@@ -37,7 +37,7 @@ public class Tile : MonoBehaviour {
 			Deselect();
 		} else {
 			if(previousSelected == null) {
-				
+				Select();
 			} else {
 				
 			}
