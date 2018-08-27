@@ -43,4 +43,8 @@ public class Tile : MonoBehaviour {
 			}
 		}
 	}
+	
+	public void SwapSprite(SpriteRenderer render2) {
+		
+	}
 }
