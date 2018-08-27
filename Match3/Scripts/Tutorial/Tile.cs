@@ -34,7 +34,7 @@ public class Tile : MonoBehaviour {
 		}
 		
 		if (isSelected) {
-			
+			Deselect();
 		}
 	}
 }
