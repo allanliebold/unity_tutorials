@@ -39,7 +39,7 @@ public class Tile : MonoBehaviour {
 			if(previousSelected == null) {
 				Select();
 			} else {
-				
+				previousSelected.Deselect();
 			}
 		}
 	}
