@@ -29,6 +29,8 @@ public class Tile : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-		
+		if (render.sprite == null || BoardManager.instance.IsShifting) {
+			return;	
+		}
 	}
 }
