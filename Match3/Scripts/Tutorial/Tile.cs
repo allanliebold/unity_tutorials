@@ -45,6 +45,8 @@ public class Tile : MonoBehaviour {
 	}
 	
 	public void SwapSprite(SpriteRenderer render2) {
-		
+		if (render.sprite == render2.sprite) {
+			return;	
+		}
 	}
 }
