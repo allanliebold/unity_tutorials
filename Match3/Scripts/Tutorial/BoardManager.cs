@@ -43,6 +43,7 @@ public class BoardManager : MonoBehaviour {
 				newTile.GetComponent<SpriteRenderer>().sprite = newSprite;
 				
 				previousLeft[y] = newSprite;
+				previousBelow = newSprite;
 			}
         }
     }
