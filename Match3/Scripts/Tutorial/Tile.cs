@@ -28,4 +28,7 @@ public class Tile : MonoBehaviour {
 		previousSelected = null;
 	}
 
+	void OnMouseDown() {
+		
+	}
 }
