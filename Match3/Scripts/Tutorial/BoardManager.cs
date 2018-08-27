@@ -41,6 +41,8 @@ public class BoardManager : MonoBehaviour {
 				
 				Sprite newSprite = possibleCharacters[Random.Range(0, possibleCharacters.Count)];
 				newTile.GetComponent<SpriteRenderer>().sprite = newSprite;
+				
+				previousLeft[y] = newSprite;
 			}
         }
     }
