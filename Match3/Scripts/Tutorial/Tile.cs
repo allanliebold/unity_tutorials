@@ -55,4 +55,8 @@ public class Tile : MonoBehaviour {
 		render.sprite = tempSprite;
 		SFXManager.instance.PlaySFX(Clip.Swap);
 	}
+	
+	private GameObject GetAdjacent(Vector2 castDir) {
+		
+	}
 }
