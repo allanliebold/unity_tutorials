@@ -48,5 +48,7 @@ public class Tile : MonoBehaviour {
 		if (render.sprite == render2.sprite) {
 			return;	
 		}
+		
+		Sprite tempSprite = render2.sprite;
 	}
 }
