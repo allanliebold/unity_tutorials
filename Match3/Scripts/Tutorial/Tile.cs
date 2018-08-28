@@ -39,6 +39,7 @@ public class Tile : MonoBehaviour {
 			if(previousSelected == null) {
 				Select();
 			} else {
+				SwapSprite(previousSelected.render);
 				previousSelected.Deselect();
 			}
 		}
