@@ -63,4 +63,8 @@ public class Tile : MonoBehaviour {
 		}
 		return null;
 	}
+	
+	private List<GameObject> GetAllAdjacentTiles() {
+		
+	}
 }
