@@ -65,6 +65,6 @@ public class Tile : MonoBehaviour {
 	}
 	
 	private List<GameObject> GetAllAdjacentTiles() {
-		
+		List<GameObject> adjacentTiles = new List<GameObject>();
 	}
 }
