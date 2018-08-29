@@ -61,5 +61,6 @@ public class Tile : MonoBehaviour {
 		if(hit.collider != null) {
 			return hit.collider.gameObject;
 		}
+		return null;
 	}
 }
