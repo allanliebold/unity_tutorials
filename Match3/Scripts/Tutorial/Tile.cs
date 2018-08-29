@@ -66,5 +66,8 @@ public class Tile : MonoBehaviour {
 	
 	private List<GameObject> GetAllAdjacentTiles() {
 		List<GameObject> adjacentTiles = new List<GameObject>();
+		for (int i = 0; i < adjacentDirections.Length; i++) {
+			adjacentTiles.Add(GetAdjacent(adjacentDirections[i]));	
+		}
 	}
 }
