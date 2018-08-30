@@ -40,7 +40,7 @@ public class Tile : MonoBehaviour {
 				Select();
 			} else {
 				if(GetAllAdjacentTiles().Contains(previousSelected.gameObject)) {
-					
+					SwapSprite(previousSelected.render);
 				} else {
 					
 				}
