@@ -80,5 +80,9 @@ public class Tile : MonoBehaviour {
 	private List<GameObject> FindMatch(Vector2 castDir) {
 		List<GameObject> matchingTiles = new List<GameObject>();
 		RaycastHit2D hit = Physics2D.Raycast(transform.position, castDir);
+		
+		while(hit.collider != null && hit.collider.GetComponent<SpriteRenderer>().sprite == render.sprite) {
+			
+		}
 	}
 }
