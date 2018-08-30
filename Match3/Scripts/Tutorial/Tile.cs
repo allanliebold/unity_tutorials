@@ -43,7 +43,7 @@ public class Tile : MonoBehaviour {
 					SwapSprite(previousSelected.render);
 					previousSelected.Deselect();
 				} else {
-					
+					previousSelected.GetComponent<Tile>().Deselect();
 				}
 			}
 		}
