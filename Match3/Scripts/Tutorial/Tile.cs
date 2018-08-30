@@ -76,4 +76,8 @@ public class Tile : MonoBehaviour {
 		}
 		return adjacentTiles;
 	}
+	
+	private List<GameObject> FindMatch(Vector2 castDir) {
+		
+	}
 }
