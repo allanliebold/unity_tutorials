@@ -39,7 +39,11 @@ public class Tile : MonoBehaviour {
 			if(previousSelected == null) {
 				Select();
 			} else {
-				
+				if() {
+					
+				} else {
+					
+				}
 			}
 		}
 	}
