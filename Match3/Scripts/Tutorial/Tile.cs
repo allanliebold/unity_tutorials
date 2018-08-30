@@ -83,6 +83,7 @@ public class Tile : MonoBehaviour {
 		
 		while(hit.collider != null && hit.collider.GetComponent<SpriteRenderer>().sprite == render.sprite) {
 			matchingTiles.Add(hit.collider.gameObject);
+			hit = Physics2D.Raycast(hit.collider.transform.position, castDir);
 		}
 	}
 }
