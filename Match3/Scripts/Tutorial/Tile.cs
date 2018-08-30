@@ -44,6 +44,7 @@ public class Tile : MonoBehaviour {
 					previousSelected.Deselect();
 				} else {
 					previousSelected.GetComponent<Tile>().Deselect();
+					Select();
 				}
 			}
 		}
