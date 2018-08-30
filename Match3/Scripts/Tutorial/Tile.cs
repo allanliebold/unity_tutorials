@@ -78,6 +78,6 @@ public class Tile : MonoBehaviour {
 	}
 	
 	private List<GameObject> FindMatch(Vector2 castDir) {
-		
+		List<GameObject> matchingTiles = new List<GameObject>();
 	}
 }
