@@ -39,7 +39,7 @@ public class Tile : MonoBehaviour {
 			if(previousSelected == null) {
 				Select();
 			} else {
-				if() {
+				if(GetAllAdjacentTiles().Contains(previousSelected.gameObject)) {
 					
 				} else {
 					
