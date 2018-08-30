@@ -69,5 +69,6 @@ public class Tile : MonoBehaviour {
 		for (int i = 0; i < adjacentDirections.Length; i++) {
 			adjacentTiles.Add(GetAdjacent(adjacentDirections[i]));	
 		}
+		return adjacent tiles;
 	}
 }
