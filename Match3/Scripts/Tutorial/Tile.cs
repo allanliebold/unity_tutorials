@@ -92,5 +92,8 @@ public class Tile : MonoBehaviour {
 		for(int i = 0; i < paths.Length; i++) {
 			matchingTiles.AddRange(FindMatch(paths[i]));
 		}
+		if(matchingTiles.Count >= 2) {
+			
+		}
 	}
 }
