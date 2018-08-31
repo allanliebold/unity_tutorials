@@ -86,4 +86,8 @@ public class Tile : MonoBehaviour {
 		}
 		return matchingTiles;
 	}
+	
+	private void ClearMatch(Vector2[] paths) {
+		
+	}
 }
