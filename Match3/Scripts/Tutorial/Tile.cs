@@ -88,6 +88,9 @@ public class Tile : MonoBehaviour {
 	}
 	
 	private void ClearMatch(Vector2[] paths) {
-		
+		List<GameObject> matchingTiles = new List<GameObject>();
+		for(int i = 0; i < paths.Length; i++) {
+			
+		}
 	}
 }
