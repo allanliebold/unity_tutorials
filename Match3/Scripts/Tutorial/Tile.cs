@@ -85,5 +85,6 @@ public class Tile : MonoBehaviour {
 			matchingTiles.Add(hit.collider.gameObject);
 			hit = Physics2D.Raycast(hit.collider.transform.position, castDir);
 		}
+		return matchingTiles;
 	}
 }
