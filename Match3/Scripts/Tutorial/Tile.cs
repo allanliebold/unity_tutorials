@@ -94,7 +94,7 @@ public class Tile : MonoBehaviour {
 		}
 		if(matchingTiles.Count >= 2) {
 			for(int i = 0; i < matchingTiles.Count; i++) {
-				
+				matchingTiles[i].GetComponent<SpriteRenderer>().sprite = null;
 			}
 		}
 	}
