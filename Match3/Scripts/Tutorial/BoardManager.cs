@@ -46,6 +46,10 @@ public class BoardManager : MonoBehaviour {
 				previousBelow = newSprite;
 			}
         }
+		
+	public IEnumerator FindNullTiles() {
+		
+	}
     }
 
 }
