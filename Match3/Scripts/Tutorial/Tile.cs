@@ -101,6 +101,7 @@ public class Tile : MonoBehaviour {
 	}
 	
 	public void ClearAllMatches() {
-		
+		if (render.sprite == null)
+			return;
 	}
 }
