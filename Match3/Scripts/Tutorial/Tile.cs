@@ -105,5 +105,6 @@ public class Tile : MonoBehaviour {
 			return;
 		
 		ClearMatch(new Vector2[2] { Vector2.left, Vector2.right });
+		ClearMatch(new Vector2[2] { Vector2.up, Vector2.down });
 	}
 }
