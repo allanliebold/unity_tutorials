@@ -50,7 +50,9 @@ public class BoardManager : MonoBehaviour {
 	public IEnumerator FindNullTiles() {
 		for(int x = 0; x < xSize; x++) {
 			for(int x = 0; x < xSize; x++) {
-				
+				for(int y = 0; y < ySize; y++) {
+					
+				}
 			}
 		}
 	}
