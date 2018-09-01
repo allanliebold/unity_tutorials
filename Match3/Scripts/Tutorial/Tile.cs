@@ -109,6 +109,7 @@ public class Tile : MonoBehaviour {
 		if (matchFound) {
 			render.sprite = null;
 			matchFound = false;
+			SFXManager.instance.PlaySFX(Clip.Clear);
 		}
 	}
 }
