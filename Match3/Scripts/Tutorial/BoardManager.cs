@@ -63,6 +63,7 @@ public class BoardManager : MonoBehaviour {
 	private IEnumerator ShiftTilesDown(int x, int yStart, float shiftDelay = .03f) {
 		IsShifting = true;	
 		List<SpriteRenderer> renders = new List<SpriteRenderer>();
+		int nullCount = 0;
 	}
     }
 
