@@ -48,7 +48,9 @@ public class BoardManager : MonoBehaviour {
         }
 		
 	public IEnumerator FindNullTiles() {
-		
+		for(int x = 0; x < xSize; x++) {
+			
+		}
 	}
     }
 
