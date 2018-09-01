@@ -108,6 +108,7 @@ public class Tile : MonoBehaviour {
 		ClearMatch(new Vector2[2] { Vector2.up, Vector2.down });
 		if (matchFound) {
 			render.sprite = null;
+			matchFound = false;
 		}
 	}
 }
