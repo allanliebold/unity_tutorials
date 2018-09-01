@@ -59,6 +59,10 @@ public class BoardManager : MonoBehaviour {
 			}
 		}
 	}
+		
+	private IEnumerator ShiftTilesDown(int x, int yStart, float shiftDelay = .03f) {
+		
+	}
     }
 
 }
