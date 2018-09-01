@@ -52,7 +52,7 @@ public class BoardManager : MonoBehaviour {
 			for(int x = 0; x < xSize; x++) {
 				for(int y = 0; y < ySize; y++) {
 					if(tiles[x, y].GetComponent<SpriteRenderer>().sprite == null) {
-						
+						yield return StartCoroutine(ShiftTilesDown(x, y));
 					}
 				}
 			}
