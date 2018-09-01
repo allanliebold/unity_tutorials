@@ -99,4 +99,8 @@ public class Tile : MonoBehaviour {
 			matchFound = true;
 		}
 	}
+	
+	public void ClearAllMatches() {
+		
+	}
 }
