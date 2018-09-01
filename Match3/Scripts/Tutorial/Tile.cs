@@ -96,6 +96,7 @@ public class Tile : MonoBehaviour {
 			for(int i = 0; i < matchingTiles.Count; i++) {
 				matchingTiles[i].GetComponent<SpriteRenderer>().sprite = null;
 			}
+			matchFound = true;
 		}
 	}
 }
