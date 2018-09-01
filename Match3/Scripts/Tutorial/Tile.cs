@@ -42,6 +42,7 @@ public class Tile : MonoBehaviour {
 					SwapSprite(previousSelected.render);
 					previousSelected.ClearAllMatches();
 					previousSelected.Deselect();
+					ClearAllMatches();
 				} else {
 					previousSelected.GetComponent<Tile>().Deselect();
 					Select();
