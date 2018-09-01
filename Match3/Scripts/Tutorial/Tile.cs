@@ -103,5 +103,7 @@ public class Tile : MonoBehaviour {
 	public void ClearAllMatches() {
 		if (render.sprite == null)
 			return;
+		
+		ClearMatch(new Vector2[2] { Vector2.left, Vector2.right });
 	}
 }
