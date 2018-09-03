@@ -28,7 +28,7 @@ public class GUIManager : MonoBehaviour {
 
 	public int MoveCounter {
 		get {
-			
+			return moveCounter;
 		}
 	}
 	
