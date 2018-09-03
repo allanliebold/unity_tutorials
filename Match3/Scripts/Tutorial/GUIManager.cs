@@ -63,5 +63,9 @@ public class GUIManager : MonoBehaviour {
 
 		yourScoreTxt.text = score.ToString();
 	}
+	
+	private IEnumerator WaitForShifting() {
+		
+	}
 
 }
