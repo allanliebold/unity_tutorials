@@ -35,7 +35,7 @@ public class GUIManager : MonoBehaviour {
 			moveCounter = value;
 			
 			if(moveCounter <= 0) {
-				
+				moveCounter = 0;
 			}
 			
 			moveCounterTxt.text = moveCounter.ToString();
