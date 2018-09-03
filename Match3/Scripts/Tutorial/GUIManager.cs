@@ -16,6 +16,7 @@ public class GUIManager : MonoBehaviour {
 	private int moveCounter;
 
 	void Awake() {
+		moveCounter = 60;
 		instance = GetComponent<GUIManager>();
 	}
 
