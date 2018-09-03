@@ -112,6 +112,7 @@ public class Tile : MonoBehaviour {
 			render.sprite = null;
 			matchFound = false;
 			SFXManager.instance.PlaySFX(Clip.Clear);
+			GUIManager.instance.MoveCounter--;
 		}
 	}
 }
