@@ -19,7 +19,6 @@ public class GUIManager : MonoBehaviour {
 		get {
 			return score;	
 		}
-		
 		set {
 			score = value;
 			scoreTxt.text = score.ToString();
