@@ -13,6 +13,7 @@ public class GUIManager : MonoBehaviour {
 	public Text moveCounterTxt;
 
 	private int score;
+	private int moveCounter;
 
 	void Awake() {
 		instance = GetComponent<GUIManager>();
