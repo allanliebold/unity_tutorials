@@ -36,7 +36,7 @@ public class GUIManager : MonoBehaviour {
 			
 			if(moveCounter <= 0) {
 				moveCounter = 0;
-				GameOver();
+				StartCoroutine(WaitForShifting());
 			}
 			
 			moveCounterTxt.text = moveCounter.ToString();
