@@ -19,6 +19,10 @@ public class GUIManager : MonoBehaviour {
 		get {
 			return score;	
 		}
+		
+		set {
+			
+		}
 	}
 
 	void Awake() {
