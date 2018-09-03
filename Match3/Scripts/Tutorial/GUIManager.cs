@@ -27,7 +27,9 @@ public class GUIManager : MonoBehaviour {
 	}
 
 	public int MoveCounter {
-		
+		get {
+			
+		}
 	}
 	
 	void Awake() {
