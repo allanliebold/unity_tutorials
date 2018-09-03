@@ -21,7 +21,7 @@ public class GUIManager : MonoBehaviour {
 		}
 		
 		set {
-			
+			score = value;
 		}
 	}
 
