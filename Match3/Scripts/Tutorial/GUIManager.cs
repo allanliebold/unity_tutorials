@@ -65,7 +65,7 @@ public class GUIManager : MonoBehaviour {
 	}
 	
 	private IEnumerator WaitForShifting() {
-		
+		yield return new WaitUntil(() => !BoardManager.instance.IsShifting);
 	}
 
 }
