@@ -18,7 +18,6 @@ public class GUIManager : MonoBehaviour {
 		instance = GetComponent<GUIManager>();
 	}
 
-	// Show the game over panel
 	public void GameOver() {
 		GameManager.instance.gameOver = true;
 
