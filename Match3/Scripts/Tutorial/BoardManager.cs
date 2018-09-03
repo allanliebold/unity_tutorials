@@ -64,6 +64,8 @@ public class BoardManager : MonoBehaviour {
 		IsShifting = true;	
 		List<SpriteRenderer> renders = new List<SpriteRenderer>();
 		int nullCount = 0;
+		
+		yield return new WaitForSeconds(shiftDelay);
 	}
     }
 
