@@ -29,7 +29,6 @@ public class GUIManager : MonoBehaviour {
 		get {
 			return moveCounter;
 		}
-		
 		set {
 			moveCounter = value;
 			
