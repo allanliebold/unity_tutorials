@@ -33,6 +33,7 @@ public class GUIManager : MonoBehaviour {
 		
 		set {
 			moveCounter = value;
+			moveCounterTxt.text = moveCounter.ToString();
 		}
 	}
 	
