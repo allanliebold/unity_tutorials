@@ -14,6 +14,10 @@ public class GUIManager : MonoBehaviour {
 
 	private int score;
 	private int moveCounter;
+	
+	public int Score {
+		
+	}
 
 	void Awake() {
 		moveCounter = 60;
