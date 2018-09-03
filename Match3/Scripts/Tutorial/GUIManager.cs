@@ -16,7 +16,9 @@ public class GUIManager : MonoBehaviour {
 	private int moveCounter;
 	
 	public int Score {
-		
+		get {
+			return score;	
+		}
 	}
 
 	void Awake() {
