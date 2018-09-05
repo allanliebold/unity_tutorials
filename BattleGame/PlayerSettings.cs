@@ -17,6 +17,7 @@ public void Awake () {
   } else {
     if (PlayerPrefs.GetInt("music") == 0) {
       myAudio.enabled = false;
+      toggle.isOn = false;
     }
   }
 }
