@@ -13,5 +13,6 @@ public void Awake () {
     PlayerPrefs.SetInt("music", 1);
     toggle.isOn = true;
     myAudio.enabled = true;
+    PlayerPrefs.Save();
   }
 }
