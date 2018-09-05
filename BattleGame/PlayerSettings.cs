@@ -9,7 +9,7 @@ public class PlayerSettings : MonoBehaviour {
   [SerializeField]
   private AudioSource myAudio;
   
-  public void Awake () {
+  public void Awake() {
     if (!PlayerPrefs.HasKey("music")) {
       PlayerPrefs.SetInt("music", 1);
       toggle.isOn = true;
@@ -24,5 +24,9 @@ public class PlayerSettings : MonoBehaviour {
         toggle.isOn = true;
       }
     }
+  }
+  
+  public void ToggleMusic() {
+    
   }
 }
