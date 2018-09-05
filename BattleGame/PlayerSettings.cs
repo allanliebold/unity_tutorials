@@ -19,7 +19,7 @@ public void Awake () {
       myAudio.enabled = false;
       toggle.isOn = false;
     } else {
-      
+      myAudio.enabled = true;
     }
   }
 }
