@@ -8,6 +8,7 @@ private Toggle toggle;
 [SerializeField]
 private AudioSource myAudio;
 
+public class PlayerSettings : MonoBehaviour {
 public void Awake () {
   if (!PlayerPrefs.HasKey("music")) {
     PlayerPrefs.SetInt("music", 1);
@@ -23,4 +24,5 @@ public void Awake () {
       toggle.isOn = true;
     }
   }
+}
 }
