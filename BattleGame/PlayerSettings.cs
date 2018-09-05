@@ -16,7 +16,7 @@ public void Awake () {
     PlayerPrefs.Save();
   } else {
     if (PlayerPrefs.GetInt("music") == 0) {
-      
+      myAudio.enabled = false;
     }
   }
 }
