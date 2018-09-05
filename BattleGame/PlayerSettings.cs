@@ -9,5 +9,7 @@ private Toggle toggle;
 private AudioSource myAudio;
 
 public void Awake () {
-  
+  if (!PlayerPrefs.HasKey("music")) {
+    
+  }
 }
