@@ -14,5 +14,7 @@ public void Awake () {
     toggle.isOn = true;
     myAudio.enabled = true;
     PlayerPrefs.Save();
+  } else {
+    
   }
 }
