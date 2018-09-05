@@ -7,3 +7,7 @@ using UnityEngine.UI;
 private Toggle toggle;
 [SerializeField]
 private AudioSource myAudio;
+
+public void Awake () {
+  
+}
