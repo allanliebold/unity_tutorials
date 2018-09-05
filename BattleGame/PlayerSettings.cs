@@ -10,6 +10,6 @@ private AudioSource myAudio;
 
 public void Awake () {
   if (!PlayerPrefs.HasKey("music")) {
-    
+    PlayerPrefs.SetInt("music", 1);
   }
 }
