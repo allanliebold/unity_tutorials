@@ -65,18 +65,18 @@ public class EnemyBrain : MonoBehaviour {
                     movementState = MovementState.Moving;
                     break;
 
-            case MovementState.Moving:
-                Vector2 currentPos = new Vector2 (this.transform.position.x, this.transform.position.y);
-                Vector2 distVect2 = currentPos - nextWaypoint;
-                float dist = distVect2.magnitude;
-                if (dist < closeEnoughToWaypoint) {
-                    movementState = MovementState.Idle;
-                }
+                case MovementState.Moving:
+                    Vector2 currentPos = new Vector2 (this.transform.position.x, this.transform.position.y);
+                    Vector2 distVect2 = currentPos - nextWaypoint;
+                    float dist = distVect2.magnitude;
+                    if (dist < closeEnoughToWaypoint) {
+                        movementState = MovementState.Idle;
+                    }
 
-                Vector3 desiredDir = nextWaypoint - currentPos;
-                desiredDir.Normalize ();
-                rigidBody.AddForce (desiredDir * speed);
-                break;
+                    Vector3 desiredDir = nextWaypoint - currentPos;
+                    desiredDir.Normalize ();
+                    rigidBody.AddForce (desiredDir * speed);
+                    break;
             }
         }
     }
