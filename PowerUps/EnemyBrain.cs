@@ -40,12 +40,7 @@ public class EnemyBrain : MonoBehaviour
         Vector2 currentPos = new Vector2 (this.transform.position.x, this.transform.position.y);
         nextWaypoint = currentPos + UnityEngine.Random.insideUnitCircle.normalized * nextWaypointRadius;
     }
-
-    void Start ()
-    {
-
-    }
-
+    
     void Update ()
     {
 
