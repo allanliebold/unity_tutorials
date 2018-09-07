@@ -29,8 +29,7 @@ public class EnemyBrain : MonoBehaviour
         Moving,
     }
 
-    private void Awake ()
-    {
+    private void Awake() {
         rigidBody = GetComponent<Rigidbody2D> ();
 
         movementState = MovementState.Idle;
