@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class EnemyBrain : MonoBehaviour
-{
+public class EnemyBrain : MonoBehaviour {
     public float speed;
 
     [Tooltip ("Radius of circle around current pos where next waypoint will be")]
