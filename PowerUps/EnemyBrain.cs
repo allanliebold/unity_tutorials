@@ -69,8 +69,7 @@ public class EnemyBrain : MonoBehaviour {
                 Vector2 currentPos = new Vector2 (this.transform.position.x, this.transform.position.y);
                 Vector2 distVect2 = currentPos - nextWaypoint;
                 float dist = distVect2.magnitude;
-                if (dist < closeEnoughToWaypoint)
-                {
+                if (dist < closeEnoughToWaypoint) {
                     movementState = MovementState.Idle;
                 }
 
