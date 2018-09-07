@@ -59,8 +59,7 @@ public class EnemyBrain : MonoBehaviour {
         
         moveTimer -= Time.fixedDeltaTime;
         if (moveTimer < 0 && rigidBody.velocity.magnitude < 0.1f) {
-            switch (movementState)
-            {
+            switch (movementState) {
             case MovementState.Idle:
                 GetNewWaypoint ();
                 movementState = MovementState.Moving;
