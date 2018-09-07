@@ -36,8 +36,7 @@ public class EnemyBrain : MonoBehaviour
         timeToDestinationTimer = maxTimeToDestination;
     }
 
-    private void GetNewWaypoint ()
-    {
+    private void GetNewWaypoint() {
         Vector2 currentPos = new Vector2 (this.transform.position.x, this.transform.position.y);
         nextWaypoint = currentPos + UnityEngine.Random.insideUnitCircle.normalized * nextWaypointRadius;
     }
