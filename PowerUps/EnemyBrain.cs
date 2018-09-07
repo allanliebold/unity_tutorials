@@ -41,8 +41,7 @@ public class EnemyBrain : MonoBehaviour
         nextWaypoint = currentPos + UnityEngine.Random.insideUnitCircle.normalized * nextWaypointRadius;
     }
   
-    void FixedUpdate ()
-    {
+    void FixedUpdate() {
         timeToDestinationTimer -= Time.fixedDeltaTime;
         switch (movementState)
         {
