@@ -27,7 +27,7 @@ public class BoardManager : MonoBehaviour {
 		Sprite[] previousLeft = new Sprite[ySize];
 		Sprite previousBelow = null;
 		
-		for (int x = 0; x < xSize; x++) {
+		for(int x = 0; x < xSize; x++) {
 			for (int y = 0; y < ySize; y++) {
 				GameObject newTile = Instantiate(tile, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), tile.transform.rotation);
 				tiles[x, y] = newTile;
