@@ -19,7 +19,7 @@ public class BoardManager : MonoBehaviour {
         CreateBoard(offset.x, offset.y);
     }
 
-	private void CreateBoard (float xOffset, float yOffset) {
+	private void CreateBoard(float xOffset, float yOffset) {
 		tiles = new GameObject[xSize, ySize];
 
         float startX = transform.position.x;
