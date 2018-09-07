@@ -42,8 +42,7 @@ public class EnemyBrain : MonoBehaviour {
   
     void FixedUpdate() {
         timeToDestinationTimer -= Time.fixedDeltaTime;
-        switch (movementState)
-        {
+        switch (movementState) {
         case MovementState.Idle:
             break;
 
