@@ -49,8 +49,7 @@ public class EnemyBrain : MonoBehaviour
             break;
 
         case MovementState.Moving:
-            if (timeToDestinationTimer < 0)
-            {
+            if (timeToDestinationTimer < 0) {
                 movementState = MovementState.Idle;
                 timeToDestinationTimer = maxTimeToDestination;
             }
