@@ -5,7 +5,7 @@ using UnityEngine;
 public class Objects : MonoBehaviour {
 
 	void Start () {
-		printGame();
+		PrintGame();
 	}
 }
 
