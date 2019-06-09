@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Objects : MonoBehaviour {
-
+	public string myGameIdea;
+	
 	void Start () {
 		PrintGame();
 	}
 	
 	void PrintGame () {
-		public string myGameIdea;
 		print(myGameIdea);
 	}
 }
