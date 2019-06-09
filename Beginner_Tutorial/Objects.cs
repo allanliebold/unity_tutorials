@@ -9,7 +9,7 @@ public class Objects : MonoBehaviour {
 	}
 	
 	void PrintGame () {
-		public str myGameIdea;
+		public string myGameIdea;
 		print(myGameIdea);
 	}
 }
