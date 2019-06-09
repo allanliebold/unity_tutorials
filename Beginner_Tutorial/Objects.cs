@@ -7,5 +7,9 @@ public class Objects : MonoBehaviour {
 	void Start () {
 		PrintGame();
 	}
+	
+	void PrintGame () {
+		
+	}
 }
 
