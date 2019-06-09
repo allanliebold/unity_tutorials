@@ -10,6 +10,7 @@ public class Objects : MonoBehaviour {
 	
 	void PrintGame () {
 		public str myGameIdea;
+		print(myGameIdea);
 	}
 }
 
