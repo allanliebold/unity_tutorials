@@ -9,7 +9,9 @@ public class BalloonController : MonoBehaviour {
 	public float speed = 0.1f;
 	
 	void Start() {
-	
+		if(scaleFactor <= 1) {
+			print("scaleFactor too low.");	
+		}
 	}
 
 	void Update() {
