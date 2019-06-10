@@ -21,6 +21,9 @@ public class BalloonController : MonoBehaviour {
 	
 	void OnMouseDown() {
 		transform.localScale *= scaleFactor;
+		if(transform.localScale.x > maxScale) {
+			print("Pop!");	
+		}
 	}
 
 	void Update() {
