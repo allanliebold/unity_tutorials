@@ -20,7 +20,7 @@ public class BalloonController : MonoBehaviour {
 	}
 	
 	void OnMouseDown() {
-		transform.localScale;
+		transform.localScale = transform.localScale * scaleFactor;
 	}
 
 	void Update() {
