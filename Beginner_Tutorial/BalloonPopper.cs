@@ -23,6 +23,7 @@ public class BalloonController : MonoBehaviour {
 		transform.localScale *= scaleFactor;
 		if(transform.localScale.x > maxScale) {
 			print("Pop!");	
+			Destroy(gameObject);
 		}
 	}
 
