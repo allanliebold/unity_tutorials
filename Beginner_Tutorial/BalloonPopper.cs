@@ -18,6 +18,10 @@ public class BalloonController : MonoBehaviour {
 		
 		vector = new Vector3(1, 1, 1);
 	}
+	
+	void OnMouseDown() {
+		
+	}
 
 	void Update() {
 		transform.position += speed * vector;
