@@ -7,6 +7,7 @@ public class BalloonController : MonoBehaviour {
 	public float scaleFactor = 1.2f;
 	public float maxScale = 3f;
 	public float maxY = 10f;
+	public float minY = -10f;
 	public float speed = 0.1f;
 	Vector3 vector;
 	
