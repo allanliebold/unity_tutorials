@@ -4,4 +4,12 @@ using UnityEngine;
 
 public class BalloonController : MonoBehaviour {
 
+	void Start() {
+
+  }
+
+
+	void Update() {
+
+	}
 }
