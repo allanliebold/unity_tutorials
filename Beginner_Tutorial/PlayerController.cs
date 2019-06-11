@@ -8,6 +8,6 @@ public class PlayerController : MonoBehaviour {
   }
   
   void Update () {
-    
+    float hAxis = Input.GetAxis("Horizontal");
   }
 }
