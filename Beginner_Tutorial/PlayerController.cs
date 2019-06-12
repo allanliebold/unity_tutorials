@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
     rb = GetComponent<Rigidbody>();
   }
   
-  void Update () {
+  void WalkHandler () {
     float hAxis = Input.GetAxis("Horizontal");
     float vAxis = Input.GetAxis("Vertical");
     
