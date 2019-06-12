@@ -21,6 +21,6 @@ public class PlayerController : MonoBehaviour {
     float hAxis = Input.GetAxis("Horizontal");
     float vAxis = Input.GetAxis("Vertical");
     
-    Vector3 movement = new Vector3();
+    Vector3 movement = new Vector3(hAxis * walkSpeed * Time.deltaTime, 0, vAxis * walkSpeed * Time.deltaTime);
   }
 }
