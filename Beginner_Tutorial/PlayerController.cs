@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
   
   public float walkSpeed = 5;
-  public float jumpSpeed;
+  public float jumpSpeed = 5;
   
   void Start () {
     
