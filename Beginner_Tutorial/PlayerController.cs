@@ -24,3 +24,7 @@ public class PlayerController : MonoBehaviour {
     Vector3 movement = new Vector3(hAxis * walkSpeed * Time.deltaTime, 0, vAxis * walkSpeed * Time.deltaTime);
   }
 }
+
+void JumpHandler() {
+  
+}
