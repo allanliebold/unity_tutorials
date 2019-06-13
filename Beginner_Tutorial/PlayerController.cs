@@ -26,4 +26,8 @@ public class PlayerController : MonoBehaviour {
 
 void JumpHandler() {
   float jAxis = Input.GetAxis("Jump"); 
+  
+  if(jAxis > 0) {
+    
+  }
 }
