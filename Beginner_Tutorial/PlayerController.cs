@@ -28,7 +28,7 @@ void JumpHandler() {
   float jAxis = Input.GetAxis("Jump"); 
   
   if(jAxis > 0) {
-    Vector3 jumpVector = new Vector3(0, jAxis * jumpSpeed, 0);
+    Vector3 jumpVector = new Vector3(0, jAxis * jumpForce, 0);
     rb.AddForce(jumpVector, ForceMode.VelocityChange);
   }
 }
