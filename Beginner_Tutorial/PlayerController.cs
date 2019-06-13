@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour {
   
   public float walkSpeed = 5;
   public float jumpSpeed = 5;
-  
   Rigidbody rb;
   
   void Start () {
