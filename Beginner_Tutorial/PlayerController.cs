@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
   public float walkSpeed = 5;
   public float jumpForce = 5;
   Rigidbody rb;
+  bool pressedJump = false;
   
   void Start () {
     rb = GetComponent<Rigidbody>();
