@@ -29,5 +29,6 @@ void JumpHandler() {
   
   if(jAxis > 0) {
     Vector3 jumpVector = new Vector3(0, jAxis * jumpSpeed, 0);
+    rb.AddForce(jumpVector, ForceMode.VelocityChange);
   }
 }
