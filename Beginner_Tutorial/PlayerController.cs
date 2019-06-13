@@ -33,7 +33,7 @@ void JumpHandler() {
       Vector3 jumpVector = new Vector3(0, jAxis * jumpForce, 0);
       rb.AddForce(jumpVector, ForceMode.VelocityChange);
     } else {
-      
+      pressedJump = false;
     }
   }
 }
