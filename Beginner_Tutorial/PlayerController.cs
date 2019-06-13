@@ -28,6 +28,6 @@ void JumpHandler() {
   float jAxis = Input.GetAxis("Jump"); 
   
   if(jAxis > 0) {
-    Vector3 jumpVector = new Vector3();
+    Vector3 jumpVector = new Vector3(0, jAxis * jumpSpeed, 0);
   }
 }
