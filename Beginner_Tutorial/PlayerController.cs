@@ -37,3 +37,7 @@ void JumpHandler() {
     }
   }
 }
+
+bool CheckGrounded() {
+  
+}
