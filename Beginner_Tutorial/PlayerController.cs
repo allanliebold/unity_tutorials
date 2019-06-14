@@ -7,10 +7,14 @@ public class PlayerController : MonoBehaviour {
   public float walkSpeed = 5;
   public float jumpForce = 5;
   Rigidbody rb;
+  Collider col;
   bool pressedJump = false;
   
   void Start () {
     rb = GetComponent<Rigidbody>();
+    col = GetComponent<Collider>();
+    
+    size = col.bounds.size;
   }
   
   void FixedUpdate () {
