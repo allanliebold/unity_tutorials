@@ -41,4 +41,6 @@ void JumpHandler() {
 bool CheckGrounded() {
   Vector3 corner1 = transform.position + new Vector3();  
   Vector3 corner2 = transform.position + new Vector3();
+  Vector3 corner3 = transform.position + new Vector3();
+  Vector3 corner4 = transform.position + new Vector3();
 }
