@@ -59,6 +59,7 @@ void JumpHandler() {
     if(other.compareTag("Coin")) {
       print("Coin");
       Destroy(other.gameObject);
+      // Play sound
     }
   }
 }
