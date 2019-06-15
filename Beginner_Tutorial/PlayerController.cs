@@ -56,7 +56,7 @@ void JumpHandler() {
   }
  
   void OnTriggerEnter() {
-    if(other.tag == "Coin") {
+    if(other.compareTag("Coin")) {
       
     }
   }
