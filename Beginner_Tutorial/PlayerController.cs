@@ -56,7 +56,7 @@ void JumpHandler() {
   }
  
   void OnTriggerEnter() {
-    if(other.tag == "Coint") {
+    if(other.tag == "Coin") {
       
     }
   }
