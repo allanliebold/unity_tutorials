@@ -58,6 +58,7 @@ void JumpHandler() {
   void OnTriggerEnter() {
     if(other.compareTag("Coin")) {
       print("Coin");
+      Destroy(other.gameObject);
     }
   }
 }
