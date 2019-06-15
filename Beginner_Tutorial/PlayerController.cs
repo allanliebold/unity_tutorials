@@ -47,6 +47,9 @@ void JumpHandler() {
     Vector3 corner3 = transform.position + new Vector3(size.x / 2, -size.y / 2 + 0.01f, -size.z / 2);
     Vector3 corner4 = transform.position + new Vector3(-size.x / 2 -size.y / 2 + 0.01f, -size.z / 2);
   }
-  
+ 
+  void OnTriggerEnter() {
+    
+  }
 }
 
