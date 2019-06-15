@@ -52,7 +52,7 @@ void JumpHandler() {
     bool grounded3 = Physics.Raycast(corner3, -Vector3.up, 0.01f);
     bool grounded4 = Physics.Raycast(corner4, -Vector3.up, 0.01f);
     
-    return (grounded1);
+    return (grounded1 || grounded2);
   }
  
   void OnTriggerEnter() {
