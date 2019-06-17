@@ -7,6 +7,11 @@ public class PlayerController : MonoBehaviour {
   
   // This is to make energy readable outside of this local space, and changeable inside it. 
   public int Energy { 
-    get; set; 
+    get {
+      
+    } 
+    set {
+      
+    }
   } 
 }
