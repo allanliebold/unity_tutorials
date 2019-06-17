@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
   private int energy;
-  public int Energy { get; set; } 
+  
+  // This is to make energy readable outside of this local space, and changeable inside it. 
+  public int Energy { 
+    get; set; 
+  } 
 }
