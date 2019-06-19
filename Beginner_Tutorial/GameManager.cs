@@ -26,5 +26,6 @@ public class GameManager : MonoBehaviour {
     public void ResetGame() {
         score = 0;    
         currentLevel = 1;
+        SceneManager.LoadScene("Level1");
     }
 }
