@@ -60,6 +60,7 @@ void JumpHandler() {
       print("Coin");
       Destroy(other.gameObject);
       // Play sound
+      GameManager.instance.IncreaseScore(1);
     }
   }
 }
