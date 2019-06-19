@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour {
     void Awake() {
         if(instance == null) {
             instance = this;
+        } else if (instance != this) {
+            
         }
     }
 }
