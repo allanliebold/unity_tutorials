@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
     }
     
-    public void IncreaseScore() {
-        
+    public void IncreaseScore(int amount) {
+            
     }
 }
