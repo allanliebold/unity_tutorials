@@ -23,5 +23,7 @@ public class GameManager : MonoBehaviour {
         score += amount;  
     }
     
-    
+    public void ResetGame() {
+        
+    }
 }
