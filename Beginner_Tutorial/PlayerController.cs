@@ -61,6 +61,8 @@ void JumpHandler() {
       Destroy(other.gameObject);
       // Play sound
       GameManager.instance.IncreaseScore(1);
+    } else if (other.compareTag("Enemy")) {
+      
     }
   }
 }
