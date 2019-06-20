@@ -28,4 +28,8 @@ public class GameManager : MonoBehaviour {
         currentLevel = 1;
         SceneManager.LoadScene("Level1");
     }
+    
+    public void IncreaseLevel() {
+        
+    }
 }
