@@ -62,7 +62,7 @@ void JumpHandler() {
       // Play sound
       GameManager.instance.IncreaseScore(1);
     } else if (other.compareTag("Enemy")) {
-      
+      GameManager.instance.ResetGame();
     }
   }
 }
