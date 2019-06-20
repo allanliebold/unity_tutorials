@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour {
     }
     
     public void IncreaseLevel() {
-        
+        currentLevel++;
+        SceneManager.LoadScene("Level" + currentLevel);
     }
 }
