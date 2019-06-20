@@ -33,7 +33,10 @@ public class GameManager : MonoBehaviour {
     public void IncreaseLevel() {
         if(currentLevel < highestLevel) {
             currentLevel++;
+        } else {
+            currentLevel = 1;    
         }
+        
         SceneManager.LoadScene("Level" + currentLevel);
     }
 }
