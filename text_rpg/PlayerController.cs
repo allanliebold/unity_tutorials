@@ -20,4 +20,8 @@ namespace TextRPG {
   public override void TakeDamage(int amount) {
     base.TakeDamage(amount);
   }
+  
+  public override void Die() {
+    
+  }
 }
