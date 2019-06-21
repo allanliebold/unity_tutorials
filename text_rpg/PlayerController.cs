@@ -5,5 +5,8 @@ using UnityEngine;
 namespace TextRPG {
   public class Player : Character {
     
+    void Start() {
+      
+    }
   }
 }
