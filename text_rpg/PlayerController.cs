@@ -12,4 +12,8 @@ namespace TextRPG {
       Gold = 0;
     }
   }
+  
+  public void AddItem(string item) {
+    
+  }
 }
