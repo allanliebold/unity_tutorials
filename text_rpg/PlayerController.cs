@@ -14,6 +14,6 @@ namespace TextRPG {
   }
   
   public void AddItem(string item) {
-    
+    Inventory.Add(item);  
   }
 }
