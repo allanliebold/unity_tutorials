@@ -18,6 +18,6 @@ namespace TextRPG {
   }
   
   public override void TakeDamage(int amount) {
-    
+    base.TakeDamage(amount);
   }
 }
