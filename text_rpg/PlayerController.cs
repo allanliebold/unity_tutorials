@@ -16,4 +16,8 @@ namespace TextRPG {
   public void AddItem(string item) {
     Inventory.Add(item);  
   }
+  
+  public override void TakeDamage(int amount) {
+    
+  }
 }
