@@ -14,4 +14,8 @@ namespace TextRPG {
       Die();
     }
   }
+  
+  public virtual void Die() {
+    
+  }
 }
