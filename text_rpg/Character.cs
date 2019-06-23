@@ -8,5 +8,5 @@ public class Character : MonoBehaviour {
   public int DEF { get; set; }
   public int GP { get; set; }
   public Vector 2 RoomIndex { get; set; }
-  public List<string> Inventory {}
+  public List<string> Inventory { get; set; }
 }
