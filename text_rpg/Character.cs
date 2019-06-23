@@ -9,6 +9,7 @@ namespace TextRPG {
   public Gold { get; set; }
   
   public virtual void TakeDamage(int amount) {
+    Energy -= amount;
     
   }
 }
