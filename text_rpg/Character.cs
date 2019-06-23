@@ -16,6 +16,6 @@ namespace TextRPG {
   }
   
   public virtual void Die() {
-    print("Died.");  
+    Debug.Log("Died.");  
   }
 }
