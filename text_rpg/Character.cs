@@ -7,4 +7,8 @@ namespace TextRPG {
   public int Attack { get; set; }
   public int Defense { get; set; }             
   public Gold { get; set; }
+  
+  public virtual void TakeDamage(int amount) {
+    
+  }
 }
