@@ -6,5 +6,5 @@ namespace TextRPG {
   public int Energy { get; set; }
   public int Attack { get; set; }
   public int Defense { get; set; }             
-  
+  public Gold { get; set; }
 }
