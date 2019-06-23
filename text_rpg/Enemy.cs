@@ -5,6 +5,8 @@ using UnityEngine;
 
 namespace TextRPG {
   public class Enemy : Character {
-    
+    public override void TakeDamage(int amount) {
+      
+    }
   }
 }
