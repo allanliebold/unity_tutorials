@@ -10,6 +10,8 @@ namespace TextRPG {
   
   public virtual void TakeDamage(int amount) {
     Energy -= amount;
-    
+    if(Energy <= 0) {
+      
+    }
   }
 }
