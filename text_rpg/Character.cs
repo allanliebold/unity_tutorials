@@ -4,4 +4,6 @@ using UnityEngine;
 
 namespace TextRPG {
   public int Energy { get; set; }
+  public int Attack ( get; set; }
+  
 }
