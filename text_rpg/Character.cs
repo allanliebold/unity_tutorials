@@ -7,4 +7,5 @@ public class Character : MonoBehaviour {
   public int STR { get; set; }
   public int DEF { get; set; }
   public int GP { get; set; }
+  public Vector 2 RoomIndex {}
 }
