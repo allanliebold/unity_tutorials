@@ -12,7 +12,7 @@ namespace TextRPG {
     public List<string> Inventory { get; set; }
   }
   
-  public void TakeDamage(int amount) {
+  public virtual void TakeDamage(int amount) {
     HP -= amount;  
   }
 }
