@@ -14,6 +14,9 @@ namespace TextRPG {
   
   public virtual void TakeDamage(int amount) {
     HP -= amount;  
+    if(HP <= 0) {
+      Die(); 
+    }
   }
   
   public virtual void Die() {
