@@ -13,6 +13,6 @@ namespace TextRPG {
   }
   
   public void TakeDamage(int amount) {
-    
+    HP -= amount;  
   }
 }
