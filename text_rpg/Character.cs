@@ -16,7 +16,7 @@ namespace TextRPG {
     HP -= amount;  
   }
   
-  public void Die() {
+  public virtual void Die() {
     
   }
 }
