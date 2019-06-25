@@ -4,5 +4,5 @@ using UnityEngine;
 using TextRPG;
 
 public class EnemyDatabase : MonoBehaviour {
-  
+  public List<Enemy> Enemies { get; set; } = new List<Enemy>();  
 }
