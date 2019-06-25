@@ -8,6 +8,8 @@ public class ItemDatabase : MonoBehaviour {
   public static ItemDatabase Instance { get; private set; }
   
   private void Awake() {
-    
+    if(Instance != null && Instance != this) {
+      
+    }
   }
 }
