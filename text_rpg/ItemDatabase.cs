@@ -13,5 +13,9 @@ public class ItemDatabase : MonoBehaviour {
     } else {
       Instance = this; 
     }
+    
+    Items.Add("Shield");
+    Items.Add("Boots");
+    Items.Add("Mirror");
   }
 }
