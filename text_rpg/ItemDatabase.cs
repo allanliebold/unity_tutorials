@@ -10,6 +10,8 @@ public class ItemDatabase : MonoBehaviour {
   private void Awake() {
     if(Instance != null && Instance != this) {
       Destroy(this.gameObject);  
+    } else {
+      Instance = this; 
     }
   }
 }
