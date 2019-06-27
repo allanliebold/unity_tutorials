@@ -8,6 +8,6 @@ public class EnemyDatabase : MonoBehaviour {
   public static EnemyDatabase Instance { get; set; }
   
   private void Awake () {
-    
+    Instance = this;  
   }
 }
