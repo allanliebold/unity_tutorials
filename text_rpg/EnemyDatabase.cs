@@ -9,5 +9,8 @@ public class EnemyDatabase : MonoBehaviour {
   
   private void Awake () {
     Instance = this;  
+    foreach(Enemy enemy in GetComponents<Enemy>()) {
+      Debug.Log("Found enemy"); 
+    }
   }
 }
