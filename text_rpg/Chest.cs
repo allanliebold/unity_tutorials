@@ -3,4 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TextRPG;
 
-
+public class Chest : MonoBehaviour {
+  
+}
