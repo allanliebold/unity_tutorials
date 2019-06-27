@@ -11,6 +11,7 @@ public class EnemyDatabase : MonoBehaviour {
     Instance = this;  
     foreach(Enemy enemy in GetComponents<Enemy>()) {
       Debug.Log("Found enemy"); 
+      Enemies.Add(enemy);
     }
   }
 }
