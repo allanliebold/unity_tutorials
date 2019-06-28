@@ -3,3 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TextRPG;
 
+public class Room : MonoBehaviour {
+  
+}
