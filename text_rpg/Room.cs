@@ -9,3 +9,8 @@ public class Room : MonoBehaviour {
   public bool Exit { get; set; }
   public bool Empty { get; set; }
 }
+
+public Room () {
+  int roll = Random.Range(0, 30);
+  
+}
