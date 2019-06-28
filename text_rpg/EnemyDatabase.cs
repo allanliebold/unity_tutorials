@@ -14,4 +14,8 @@ public class EnemyDatabase : MonoBehaviour {
       Enemies.Add(enemy);
     }
   }
+  
+  public Enemy GetRandomEnemy() {
+    return Enemies[GetRandomEnemy.Range(0, Enemies.Count)]; 
+  }
 }
