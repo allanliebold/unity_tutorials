@@ -4,5 +4,8 @@ using UnityEngine;
 using TextRPG;
 
 public class Room : MonoBehaviour {
-  
+  public Chest Chest { get; set; }
+  public Enemy Enemy { get; set; }
+  public bool Exit { get; set; }
+  public bool Empty { get; set; }
 }
