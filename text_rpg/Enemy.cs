@@ -8,4 +8,8 @@ public class Enemy : Character {
     public override void TakeDamage(int amount) {
       base.TakeDamage(amount);
     }
+    
+    public override voide Die() {
+        Debug.Log("Enemy died.");   
+    }
 }
