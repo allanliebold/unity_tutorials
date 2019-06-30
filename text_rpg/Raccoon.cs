@@ -9,5 +9,6 @@ public class Raccoon : Enemy {
     Strength = 5;
     Defense = 3;
     Gold = 20;
+    Inventory.Add("Bandit Mask");
   }
 }
