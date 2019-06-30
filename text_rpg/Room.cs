@@ -13,7 +13,7 @@ public class Room : MonoBehaviour {
 public Room () {
   int roll = Random.Range(0, 30);
   if(roll > 0 && roll < 6) {
-    
+    Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
   }
   
 }
