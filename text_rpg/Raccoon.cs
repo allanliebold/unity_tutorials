@@ -7,5 +7,6 @@ public class Raccoon : Enemy {
   void Start () {
     Health = 10;  
     Strength = 5;
+    Defense = 3;
   }
 }
