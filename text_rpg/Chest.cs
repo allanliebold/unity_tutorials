@@ -14,5 +14,7 @@ public class Chest : MonoBehaviour {
 public Chest() {
   if(Random.Range(0, 7) == 2) {
     Trap = true; 
+  } else if (Random.Range(0, 5) == 2) {
+    Heal = true;  
   }
 }
