@@ -10,12 +10,13 @@ public class Room : MonoBehaviour {
   public bool Empty { get; set; }
 }
 
-public Room () {
-  int roll = Random.Range(0, 30);
-  if(roll > 0 && roll < 6) {
-    Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
-    Enemy.RoomIndex = RoomIndex;
-  } else if (roll > 15 && roll < 20) {
-    Empty = true;  
-  }  
+  public Room () {
+    int roll = Random.Range(0, 30);
+    if(roll > 0 && roll < 6) {
+      Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
+      Enemy.RoomIndex = RoomIndex;
+    } else if (roll > 15 && roll < 20) {
+      Empty = true;  
+    }
+  }
 }
