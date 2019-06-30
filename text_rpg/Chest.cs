@@ -10,3 +10,9 @@ public class Chest : MonoBehaviour {
   public bool Heal { get; set; }
   public Enemy Enemy { get; set; } 
 }
+
+public Chest() {
+  if(Random.Range(0, 7) == 2) {
+    Trap = true; 
+  }
+}
