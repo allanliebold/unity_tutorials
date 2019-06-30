@@ -15,6 +15,7 @@ public Room () {
   if(roll > 0 && roll < 6) {
     Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
     Enemy.RoomIndex = RoomIndex;
-  }
-  
+  } else if (roll > 15 && roll < 20) {
+    
+  }  
 }
