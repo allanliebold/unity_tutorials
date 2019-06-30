@@ -16,5 +16,9 @@ public Chest() {
     Trap = true; 
   } else if (Random.Range(0, 5) == 2) {
     Heal = true;  
+  } else if (Random.Range(0, 5) == 2) {
+    Enemy = EnemyDatabase.Instance.GetRandomEnemy(); 
+  } else {
+    int itemToAdd = Random.Range(0, ItemDatabase.Instance.Items.Count); 
   }
 }
