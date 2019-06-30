@@ -8,5 +8,6 @@ public class Raccoon : Enemy {
     Health = 10;  
     Strength = 5;
     Defense = 3;
+    Gold = 20;
   }
 }
