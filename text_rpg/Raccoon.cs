@@ -10,5 +10,6 @@ public class Raccoon : Enemy {
     Defense = 3;
     Gold = 20;
     Inventory.Add("Bandit Mask");
+    Inventory.Add("Acorn");
   }
 }
