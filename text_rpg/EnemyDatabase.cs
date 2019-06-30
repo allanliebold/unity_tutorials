@@ -16,6 +16,6 @@ public class EnemyDatabase : MonoBehaviour {
   }
   
   public Enemy GetRandomEnemy() {
-    return Enemies[Range(0, Enemies.Count)]; 
+    return Enemies[Random.Range(0, Enemies.Count)]; 
   }
 }
