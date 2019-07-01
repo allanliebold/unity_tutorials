@@ -12,6 +12,8 @@ public class Chest : MonoBehaviour {
 }
 
 public Chest() {
+  goldAmounts = [5, 10, 15, 20, 50, 100];
+  
   if(Random.Range(0, 7) == 2) {
     Trap = true; 
   } else if (Random.Range(0, 5) == 2) {
@@ -21,6 +23,6 @@ public Chest() {
   } else {
     int itemToAdd = Random.Range(0, ItemDatabase.Instance.Items.Count); 
     Item = ItemDatabase.Instance.Items[itemToAdd];
-    Gold = Random.Range(20, 200);
+    Gold = Random.Range();
   }
 }
