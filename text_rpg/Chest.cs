@@ -20,5 +20,6 @@ public Chest() {
     Enemy = EnemyDatabase.Instance.GetRandomEnemy(); 
   } else {
     int itemToAdd = Random.Range(0, ItemDatabase.Instance.Items.Count); 
+    Item = ItemDatabase.Instance.Items[itemToAdd];
   }
 }
