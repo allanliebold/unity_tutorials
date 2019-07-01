@@ -5,10 +5,10 @@ using TextRPG;
 
 public class Walrus : Enemy {
   void Start() {
-    Health = 15;
-    Strength = 8;
-    Defense = 8;
-    Gold = 25;
+    HP = 15;
+    STR = 8;
+    DEF = 8;
+    GP = 25;
     Inventory.Add("Tusk");
   }
 }
