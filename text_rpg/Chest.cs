@@ -23,6 +23,6 @@ public Chest() {
   } else {
     int itemToAdd = Random.Range(0, ItemDatabase.Instance.Items.Count); 
     Item = ItemDatabase.Instance.Items[itemToAdd];
-    Gold = Random.Range();
+    Gold = goldAmounts[(int)Random.Range(0, goldAmounts.Count)];
   }
 }
