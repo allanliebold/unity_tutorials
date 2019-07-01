@@ -21,5 +21,6 @@ public Chest() {
   } else {
     int itemToAdd = Random.Range(0, ItemDatabase.Instance.Items.Count); 
     Item = ItemDatabase.Instance.Items[itemToAdd];
+    Gold = Random.Range(20, 200);
   }
 }
