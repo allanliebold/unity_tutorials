@@ -4,5 +4,5 @@ using UnityEngine;
 using TextRPG;
 
 public class World : MonoBehaviour {
-  
+  public Room[,] Dungeon { get; set; }  
 }
