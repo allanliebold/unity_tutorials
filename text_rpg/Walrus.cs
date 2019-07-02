@@ -10,5 +10,6 @@ public class Walrus : Enemy {
     DEF = 8;
     GP = 25;
     Inventory.Add("Tusk");
+    Inventory.Add("Blubber");
   }
 }
