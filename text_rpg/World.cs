@@ -11,7 +11,7 @@ public class World : MonoBehaviour {
     for(int x = 0; x < Grid.x; x++) {
       for(int y = 0; y < Grid.y; y++) {
         Dungeon[x,y] = new Room {
-          
+          RoomIndex = new Vector2(x, y)
         };
       }
   }
