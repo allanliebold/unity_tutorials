@@ -19,6 +19,9 @@ public class World : MonoBehaviour {
           RoomIndex = new Vector2(x, y)
         };
       }
+    }
+    
+    
   }
 }
 
