@@ -21,7 +21,7 @@ public class World : MonoBehaviour {
       }
     }
     
-    
+    Vector2 exitLocation;
   }
 }
 
