@@ -7,6 +7,10 @@ public class World : MonoBehaviour {
   public Room[,] Dungeon { get; set; }  
   public Vector2 Grid;
   
+  private void Awake() {
+    
+  }
+  
   public void GenerateFloor() {
     for(int x = 0; x < Grid.x; x++) {
       for(int y = 0; y < Grid.y; y++) {
