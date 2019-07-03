@@ -10,7 +10,9 @@ public class World : MonoBehaviour {
   public void GenerateFloor() {
     for(int x = 0; x < Grid.x; x++) {
       for(int y = 0; y < Grid.y; y++) {
-        
+        Dungeon[x,y] = new Room {
+          
+        };
       }
   }
 }
