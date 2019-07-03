@@ -8,7 +8,7 @@ public class World : MonoBehaviour {
   public Vector2 Grid;
   
   private void Awake() {
-    Dungeon = new Room[];  
+    Dungeon = new Room[(int)Grid.x, (int)Grid.y];  
   }
   
   public void GenerateFloor() {
