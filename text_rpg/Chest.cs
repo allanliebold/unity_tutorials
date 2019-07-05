@@ -12,8 +12,6 @@ public class Chest : MonoBehaviour {
 }
 
 public Chest() {
-  goldAmounts = [5, 10, 15, 20, 50, 100];
-  
   if(Random.Range(0, 7) == 2) {
     Trap = true; 
   } else if (Random.Range(0, 5) == 2) {
