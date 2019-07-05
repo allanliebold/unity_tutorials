@@ -8,4 +8,7 @@ public class TextDisplay : MonoBehaviour {
   [SerializeField] Text textLog;  
   public TextDisplay Instance { get; set; }
   
+  void Awake() {
+    
+  }
 }
