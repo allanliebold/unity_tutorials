@@ -6,5 +6,5 @@ using TextRPG;
 
 public class TextDisplay : MonoBehaviour {
   [SerializeField]
-  private Text textLog;  
+  Text textLog;  
 }
