@@ -6,7 +6,7 @@ using TextRPG;
 
 public class TextDisplay : MonoBehaviour {
   [SerializeField] Text textLog;  
-  public TextDisplay Instance { get; set; }
+  public static TextDisplay Instance { get; set; }
   
   void Awake() {
     if (Instance != null && Instance != this) {
@@ -15,4 +15,5 @@ public class TextDisplay : MonoBehaviour {
       Instance = this;  
     }
   }
+  
 }
