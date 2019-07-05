@@ -17,5 +17,6 @@ public class ItemDatabase : MonoBehaviour {
     Items.Add("Shield");
     Items.Add("Boots");
     Items.Add("Mirror");
+    Items.Add("Ring");
   }
 }
