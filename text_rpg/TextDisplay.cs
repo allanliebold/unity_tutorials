@@ -5,6 +5,6 @@ using UnityEngine.UI;
 using TextRPG;
 
 public class TextDisplay : MonoBehaviour {
-  [SerializedField]
+  [SerializeField]
   private Text textLog;  
 }
