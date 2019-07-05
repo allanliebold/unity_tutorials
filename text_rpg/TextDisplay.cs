@@ -9,6 +9,10 @@ public class TextDisplay : MonoBehaviour {
   public TextDisplay Instance { get; set; }
   
   void Awake() {
-    
+    if (Instance != null && Instance != this) {
+      Destroy(this.gameObject); 
+    } else {
+      
+    }
   }
 }
