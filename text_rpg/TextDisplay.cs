@@ -12,7 +12,7 @@ public class TextDisplay : MonoBehaviour {
     if (Instance != null && Instance != this) {
       Destroy(this.gameObject); 
     } else {
-      
+      Instance = this;  
     }
   }
 }
