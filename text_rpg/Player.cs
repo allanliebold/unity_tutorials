@@ -8,11 +8,11 @@ public class Player : Character {
   public Room Room { get; set; }
   [SerializeField] World world;
     
-    void Start() {
-      Energy = 30;
-      Attack = 10;
-      Defense = 5;
-      Gold = 0;
+  void Start() {
+    Energy = 30;
+    Attack = 10;
+    Defense = 5;
+    Gold = 0;
     }
   }
   
@@ -26,5 +26,6 @@ public class Player : Character {
   
   public override void Die() {
     
-  }
+  }    
 }
+
