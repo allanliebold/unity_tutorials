@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace TextRPG {
   public class Player : Character {
+  public Room Room { get; set; } 
     
     void Start() {
       Energy = 30;
