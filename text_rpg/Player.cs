@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TextRPG;
 
-namespace TextRPG {
-  public class Player : Character {
+public class Player : Character {
   public Room Room { get; set; } 
     
     void Start() {
