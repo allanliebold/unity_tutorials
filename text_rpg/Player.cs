@@ -5,7 +5,8 @@ using TextRPG;
 
 public class Player : Character {
   public int Floor { get; set; }
-  public Room Room { get; set; } 
+  public Room Room { get; set; }
+  World world;
     
     void Start() {
       Energy = 30;
