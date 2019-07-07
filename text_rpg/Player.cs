@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TextRPG;
 
 namespace TextRPG {
   public class Player : Character {
