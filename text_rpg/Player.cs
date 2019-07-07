@@ -17,6 +17,7 @@ public class Player : Character {
   }
   
   public void AddItem(string item) {
+    TextDisplay.Instance.Log("Got item: " + item);
     Inventory.Add(item);  
   }
   
