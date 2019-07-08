@@ -53,7 +53,7 @@ public class Player : Character {
   }
   
   public override void Die() {
-    Debug.Log("Player died.");
+    Debug.Log("Player died. Game over.");
     base.Die();
   }    
 }
