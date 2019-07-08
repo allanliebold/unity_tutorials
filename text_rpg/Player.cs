@@ -52,7 +52,7 @@ public class Player : Character {
   }
   
   public override void Die() {
-    console.log("Player died.");  
+    Debug.Log("Player died.");  
   }    
 }
 
