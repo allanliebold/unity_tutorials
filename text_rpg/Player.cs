@@ -12,7 +12,7 @@ public class Player : Character {
     HP = 30;
     STR = 10;
     DEF = 5;
-    Gold = 0;
+    GP = 0;
     }
   }
   
