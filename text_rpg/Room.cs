@@ -13,6 +13,7 @@ public class Room : MonoBehaviour {
   public Room(Chest chest, Enemy enemy, bool empty) {
     this.Chest = chest;
     this.Enemy = enemy;
+    this.Empty = empty;
   }
 
   public Room() {
