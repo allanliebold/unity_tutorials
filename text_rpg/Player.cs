@@ -34,6 +34,9 @@ public class Player : Character {
     if (direction == 2) {
       
     }
+    if (direction == 3) {
+
+    }
   }
   
   public void AddItem(string item) {
