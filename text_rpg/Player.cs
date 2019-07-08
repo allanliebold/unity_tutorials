@@ -9,7 +9,7 @@ public class Player : Character {
   [SerializeField] World world;
     
   void Start() {
-    Energy = 30;
+    HP = 30;
     Attack = 10;
     Defense = 5;
     Gold = 0;
