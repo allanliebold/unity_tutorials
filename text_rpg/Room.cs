@@ -16,6 +16,8 @@ public class Room : MonoBehaviour {
       Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
       Enemy.RoomIndex = RoomIndex;
     } else if (roll > 15 && roll < 20) {
+      
+    } else {
       Empty = true;  
     }
   }
