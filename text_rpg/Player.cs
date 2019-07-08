@@ -14,6 +14,7 @@ public class Player : Character {
     DEF = 5;
     GP = 0;
     Inventory = new List<string>();
+    RoomIndex = new Vector2(2, 2);
     }
   }
   
