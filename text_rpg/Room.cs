@@ -14,6 +14,7 @@ public class Room : MonoBehaviour {
     this.Chest = chest;
     this.Enemy = enemy;
     this.Empty = empty;
+    this.Exit = exit;
   }
 
   public Room() {
