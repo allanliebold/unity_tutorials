@@ -28,6 +28,9 @@ public class Player : Character {
     if (direction == 0 && RoomIndex.y > 0) {
       RoomIndex -= Vector2.up; 
     }
+    if (direction == 1) {
+      
+    }
   }
   
   public void AddItem(string item) {
