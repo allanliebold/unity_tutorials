@@ -24,6 +24,10 @@ public class Player : Character {
     if (this.Room.Enemy) {
       return; 
     }
+    
+    if (direction == 0 && RoomIndex.y > 0) {
+      RoomIndex -= Vector2.up; 
+    }
   }
   
   public void AddItem(string item) {
