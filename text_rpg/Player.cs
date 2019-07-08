@@ -10,7 +10,7 @@ public class Player : Character {
     
   void Start() {
     HP = 30;
-    Attack = 10;
+    STR = 10;
     Defense = 5;
     Gold = 0;
     }
