@@ -11,7 +11,7 @@ public class Player : Character {
   void Start() {
     HP = 30;
     STR = 10;
-    Defense = 5;
+    DEF = 5;
     Gold = 0;
     }
   }
