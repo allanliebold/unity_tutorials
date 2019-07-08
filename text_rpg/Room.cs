@@ -11,7 +11,7 @@ public class Room : MonoBehaviour {
 }
 
   public Room(Chest chest, Enemy enemy) {
-    
+    this.Chest = chest;  
   }
 
   public Room() {
