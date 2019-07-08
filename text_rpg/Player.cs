@@ -21,7 +21,9 @@ public class Player : Character {
   }
 
   public void Move(int direction) {
-  
+    if (this.Room.Enemy) {
+      return; 
+    }
   }
   
   public void AddItem(string item) {
