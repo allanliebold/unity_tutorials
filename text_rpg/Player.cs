@@ -19,6 +19,10 @@ public class Player : Character {
     AddItem("Pouch");
     }
   }
+
+  public void Move(int direction) {
+  
+  }
   
   public void AddItem(string item) {
     TextDisplay.Instance.Log("Got item: " + item);
