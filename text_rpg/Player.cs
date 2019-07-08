@@ -15,7 +15,7 @@ public class Player : Character {
     GP = 0;
     Inventory = new List<string>();
     RoomIndex = new Vector2(2, 2);
-    world.Dungeon[(int)RoomIndex.x].Empty = true;
+    world.Dungeon[(int)RoomIndex.x, (int)RoomIndex.y].Empty = true;
     }
   }
   
