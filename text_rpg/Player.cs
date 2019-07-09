@@ -32,7 +32,7 @@ public class Player : Character {
       
     }
     if (direction == 2 && RoomIndex.y < world.Dungeon.GetLength(1) - 1) {
-      
+      RoomIndex -= Vector2.down;
     }
     if (direction == 3 && RoomIndex.x > 0) {
       RoomIndex += Vector2.left;
