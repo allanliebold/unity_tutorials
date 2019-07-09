@@ -37,9 +37,6 @@ public class Player : Character {
     if (direction == 3 && RoomIndex.x > 0) {
       RoomIndex += Vector2.left;
     }
-    if (direction == 4 && RoomIndex.y > 0) {
-      
-    }
   }
   
   public void AddItem(string item) {
