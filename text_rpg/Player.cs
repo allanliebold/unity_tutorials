@@ -31,7 +31,7 @@ public class Player : Character {
     if (direction == 1) {
       
     }
-    if (direction == 2 && RoomIndex.y) {
+    if (direction == 2 && RoomIndex.y < world.Dungeon.GetLength(1) - 1) {
       
     }
     if (direction == 3 && RoomIndex.x > 0) {
