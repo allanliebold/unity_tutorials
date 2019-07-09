@@ -28,7 +28,7 @@ public class Player : Character {
     if (direction == 0 && RoomIndex.y > 0) {
       RoomIndex -= Vector2.up; 
     }
-    if (direction == 1) {
+    if (direction == 1 && RoomIndex.x < world.Dungeon.GetLength(0) - 1) {
       
     }
     if (direction == 2 && RoomIndex.y < world.Dungeon.GetLength(1) - 1) {
