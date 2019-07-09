@@ -29,7 +29,7 @@ public class Player : Character {
       RoomIndex -= Vector2.up; 
     }
     if (direction == 1 && RoomIndex.x < world.Dungeon.GetLength(0) - 1) {
-      
+      RoomIndex;
     }
     if (direction == 2 && RoomIndex.y < world.Dungeon.GetLength(1) - 1) {
       RoomIndex -= Vector2.down;
