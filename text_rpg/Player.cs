@@ -38,6 +38,10 @@ public class Player : Character {
       RoomIndex += Vector2.left;
     }
   }
+
+  public void Look() {
+    
+  }
   
   public void AddItem(string item) {
     TextDisplay.Instance.Log("Got item: " + item);
