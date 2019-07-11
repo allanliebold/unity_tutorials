@@ -35,7 +35,7 @@ public class Player : Character {
       RoomIndex -= Vector2.down;
     }
     if (direction == 3 && RoomIndex.x > world.Dungeon.GetLength(0) - 1) {
-      RoomIndex ;
+      RoomIndex -= Vector2.right;
     }
   }
   
