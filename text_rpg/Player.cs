@@ -40,7 +40,7 @@ public class Player : Character {
   }
 
   public void Look() {
-    this.Room = world.Dungeon;
+    this.Room = world.Dungeon[RoomIndex.x, RoomIndex.y];
   }
   
   public void AddItem(string item) {
