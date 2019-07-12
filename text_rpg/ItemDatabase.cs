@@ -24,3 +24,4 @@ public class ItemDatabase : MonoBehaviour {
   public Item GetRandomItem() {
 
   }}
+}
