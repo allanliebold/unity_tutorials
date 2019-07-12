@@ -15,7 +15,7 @@ public class EnemyDatabase : MonoBehaviour {
       enemyCount++;
     }
     
-    Debug.Log("Enemy count: " + enemyCount);
+    Debug.Log("Enemies in Database: " + enemyCount);
   }
   
   public Enemy GetRandomEnemy() {
