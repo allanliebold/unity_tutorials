@@ -12,6 +12,7 @@ public class EnemyDatabase : MonoBehaviour {
     int enemyCount = 0; 
     foreach(Enemy enemy in GetComponents<Enemy>()) {
       Enemies.Add(enemy);
+      enemyCount++;
     }
   }
   
