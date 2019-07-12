@@ -22,6 +22,6 @@ public class ItemDatabase : MonoBehaviour {
   }
   
   public Item GetRandomItem() {
-
-  }}
+    return Items[Random.Range(0, Items.Count)];
+  }
 }
