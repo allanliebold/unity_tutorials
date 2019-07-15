@@ -17,6 +17,7 @@ public class Player : Character {
     RoomIndex = new Vector2(2, 2);
     world.Dungeon[(int)RoomIndex.x, (int)RoomIndex.y].Empty = true;
     AddItem("Pouch");
+    AddItem("Map");
     }
   }
 
