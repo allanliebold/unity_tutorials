@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TextRPG;
 
 public class TextDisplay : MonoBehaviour {
-  [SerializeField] Text logText;  
+   
   public static TextDisplay Instance { get; set; }
   
   void Awake() {
