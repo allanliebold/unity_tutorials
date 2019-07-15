@@ -50,7 +50,7 @@ public class Player : Character {
   }
   
   public override void TakeDamage(int amount) {
-    Debug.Log(playerName + " took damage.");
+    Debug.Log(playerName + " took " + amount + " damage.");
     base.TakeDamage(amount);
   }
   
