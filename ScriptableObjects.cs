@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnManagerScriptableObject : ScriptableObject
+public class SpawnManager : ScriptableObject
 {
 
 }
