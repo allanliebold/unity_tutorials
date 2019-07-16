@@ -24,8 +24,6 @@ public class World : MonoBehaviour {
     Vector2 exitLocation = new Vector2((int)Random.Range(0, Grid.x), (int)Random.Range(0, Grid.y));
     Dungeon[(int)exitLocation.x, (int)exitLocation.y].Exit = true;
     Dungeon[(int)exitLocation.x, (int)exitLocation.y].Empty = false;
-    
-    Debug.Log("Exit location: " + exitLocation);
   }
 }
 
