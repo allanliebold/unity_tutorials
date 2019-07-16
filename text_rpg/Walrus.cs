@@ -5,7 +5,7 @@ using TextRPG;
 
 public class Walrus : Enemy {
   void Start() {
-    HP = 15;
+    HP = 18;
     STR = 10;
     DEF = 8;
     GP = 25;
