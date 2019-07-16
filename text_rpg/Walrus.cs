@@ -6,7 +6,7 @@ using TextRPG;
 public class Walrus : Enemy {
   void Start() {
     HP = 15;
-    STR = 8;
+    STR = 10;
     DEF = 8;
     GP = 25;
     Inventory.Add("Tusk");
