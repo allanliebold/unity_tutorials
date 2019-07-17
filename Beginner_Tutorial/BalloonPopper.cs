@@ -27,11 +27,11 @@ public class BalloonController : MonoBehaviour {
 	}
 
 	void Update() {
-		transform.position += speed * vector;
-		if (transform.position.y >= maxY && speed > 0) {
+	     transform.position += speed * vector;
+	     if (transform.position.y >= maxY && speed > 0) {
 			speed *= -1;
-		} else if (transform.position.y <= minY && speed < 0) {
+	     } else if (transform.position.y <= minY && speed < 0) {
 			speed *= -1;
-		}
+	     }
 	}
 }
