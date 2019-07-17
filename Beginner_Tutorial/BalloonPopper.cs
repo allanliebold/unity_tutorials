@@ -21,8 +21,8 @@ public class BalloonController : MonoBehaviour {
 	void OnMouseDown() {
 	     transform.localScale *= scaleFactor;
 	     if(transform.localScale.x > maxScale) {
-			print("Pop!");	
-			Destroy(gameObject);
+		print("Pop!");	
+		Destroy(gameObject);
 	     }
 	}
 
