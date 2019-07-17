@@ -11,7 +11,7 @@ public class BalloonController : MonoBehaviour {
 	Vector3 vector;
 	
 	void Start() {
-		if(scaleFactor <= 1) {
+	     if(scaleFactor <= 1) {
 			print("scaleFactor too low.");	
 		}
 		
