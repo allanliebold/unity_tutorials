@@ -5,12 +5,12 @@ using UnityEngine;
 public class Objects : MonoBehaviour {
      public string myGameIdea;
 	
-	void Start () {
+     void Start () {
 	PrintGame();
 	}
 	
-	void PrintGame () {
-		print(myGameIdea);
-	}
+     void PrintGame () {
+	print(myGameIdea);
+     }
 }
 
