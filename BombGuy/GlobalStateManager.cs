@@ -9,7 +9,7 @@ public class GlobalStateManager : MonoBehaviour {
     deadPlayers++;
     
     if (deadPlayers == 1) {
-      
+      Debug.Log("Game over.");
     }
   }
 }
