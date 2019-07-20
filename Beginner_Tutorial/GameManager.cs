@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour {
     public int score = 0;
     public int currentLevel = 1;
     public int highestLevel = 5;
-    
     public static GameManager instance;
     
     void Awake() {
