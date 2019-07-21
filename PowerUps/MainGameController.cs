@@ -73,8 +73,7 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
 
     void IPowerUpEvents.OnPowerUpCollected (PowerUp powerUp, PlayerBrain player)
     {
-        if (!powerUp.expiresImmediately)
-        {
+        if (!powerUp.expiresImmediately) {
             activePowerUps.Add (powerUp);
             UpdateActivePowerUpUi ();
         }
