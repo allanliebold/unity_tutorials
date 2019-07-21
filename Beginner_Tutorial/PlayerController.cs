@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour {
   void Start () {
     rb = GetComponent<Rigidbody>();
     col = GetComponent<Collider>();
-    
     size = col.bounds.size;
   }
   
