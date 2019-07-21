@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-  
   public float walkSpeed = 5;
   public float jumpForce = 5;
   Rigidbody rb;
