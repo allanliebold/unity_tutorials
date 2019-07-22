@@ -20,7 +20,6 @@ public class ItemDatabase : MonoBehaviour {
     Items.Add("Ring");
     Items.Add("Bow");
     Items.Add("Map");
-    Items.Add();
   }
   
   public Item GetRandomItem() {
