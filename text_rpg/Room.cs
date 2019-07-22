@@ -8,6 +8,7 @@ public class Room : MonoBehaviour {
   public Enemy Enemy { get; set; }
   public bool Exit { get; set; }
   public bool Empty { get; set; }
+  public bool Trap {}
 }
 
   public Room(Chest chest, Enemy enemy, bool empty) {
