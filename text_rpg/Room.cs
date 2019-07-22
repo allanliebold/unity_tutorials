@@ -11,7 +11,7 @@ public class Room : MonoBehaviour {
   public bool Trap { get; set; }
 }
 
-  public Room(Chest chest, Enemy enemy, bool empty) {
+  public Room(Chest chest, Enemy enemy, bool empty, bool trap) {
     this.Chest = chest;
     this.Enemy = enemy;
     this.Empty = empty;
