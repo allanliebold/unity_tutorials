@@ -15,7 +15,7 @@ public class TextDisplay : MonoBehaviour {
       Instance = this;  
     }
   }
-  
+    
   public void Log(string text) {
     logText.text += text;
   }
