@@ -19,7 +19,7 @@ public class ItemDatabase : MonoBehaviour {
     Items.Add("Mirror");
     Items.Add("Ring");
     Items.Add("Bow");
-    Items.Add();
+    Items.Add("Map");
   }
   
   public Item GetRandomItem() {
