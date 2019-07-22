@@ -16,6 +16,7 @@ public class Room : MonoBehaviour {
     this.Enemy = enemy;
     this.Empty = empty;
     this.Exit = exit;
+    this.Trap = trap;
   }
 
   public Room() {
