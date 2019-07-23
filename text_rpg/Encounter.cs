@@ -15,5 +15,6 @@ public class Encounter : MonoBehaviour {
   
   public void StartCombat() {
     dynamicControls[0].active = true;  
+    dynamicControls[1].active = true;
   }
 }
