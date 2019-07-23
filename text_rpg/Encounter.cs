@@ -6,4 +6,8 @@ using TextRPG;
 public class Encounter : MonoBehaviour {
   [SerializeField] Player player;
   [SerializeField] Button dynamicControls;
+  
+  public void ResetDynamicControls {
+    
+  }
 }
