@@ -9,7 +9,7 @@ public class Encounter : MonoBehaviour {
   
   public void ResetDynamicControls() {
     foreach(Button button in dynamicControls) {
-      
+      button.active = false;
     }
   }
 }
