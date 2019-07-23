@@ -9,12 +9,12 @@ public class Encounter : MonoBehaviour {
   
   public void ResetDynamicControls() {
     foreach(Button button in dynamicControls) {
-      button.active = false;
+      button.interactable = false;
     }
   }
   
   public void StartCombat() {
-    dynamicControls[0].active = true;  
-    dynamicControls[1].active = true;
+    dynamicControls[0].interactable = true;  
+    dynamicControls[1].interactable = true;
   }
 }
