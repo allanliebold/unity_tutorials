@@ -12,4 +12,8 @@ public class Encounter : MonoBehaviour {
       button.active = false;
     }
   }
+  
+  public void StartCombat() {
+    
+  }
 }
