@@ -8,6 +8,8 @@ public class Encounter : MonoBehaviour {
   [SerializeField] Button dynamicControls;
   
   public void ResetDynamicControls() {
-    
+    foreach(Button button in dynamicControls) {
+      
+    }
   }
 }
