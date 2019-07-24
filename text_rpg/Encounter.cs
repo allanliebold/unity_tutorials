@@ -14,6 +14,7 @@ public class Encounter : MonoBehaviour {
   }
   
   public void StartCombat() {
+    this.Enemy = player.Room.Enemy;
     dynamicControls[0].interactable = true;  
     dynamicControls[1].interactable = true;
   }
