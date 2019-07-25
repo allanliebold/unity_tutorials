@@ -28,6 +28,6 @@ public class Encounter : MonoBehaviour {
   }
   
   public void Attack() {
-    int playerDamageAmount = (Random.value * (player.STR - Enemy.DEF);  
+    int playerDamageAmount = (int)(Random.value * (player.STR - Enemy.DEF));  
   }
 }
