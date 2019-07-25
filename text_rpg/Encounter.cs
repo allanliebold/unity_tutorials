@@ -26,4 +26,8 @@ public class Encounter : MonoBehaviour {
   public void StartExit() {
     dynamicControls[4].interactable = true;  
   }
+  
+  public void Attack() {
+    
+  }
 }
