@@ -22,4 +22,8 @@ public class Encounter : MonoBehaviour {
   public void StartChest() {
     dynamicControls[3].interactable = true;  
   }
+  
+  public void StartExit() {
+    
+  }
 }
