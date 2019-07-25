@@ -18,4 +18,8 @@ public class Encounter : MonoBehaviour {
     dynamicControls[0].interactable = true;  
     dynamicControls[1].interactable = true;
   }
+  
+  public void OpenChest() {
+    
+  }
 }
