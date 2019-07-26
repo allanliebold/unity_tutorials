@@ -31,6 +31,6 @@ public class Encounter : MonoBehaviour {
     int playerDamageAmount = (int)(Random.value * (player.STR - Enemy.DEF));  
     int enemyDamageAmount = (int)(Random.value * (Enemy.STR - player.DEF));
     player.TakeDamage(enemyDamageAmount);
-    Enemy.TakeDamage();
+    Enemy.TakeDamage(playerDamageAmount);
   }
 }
