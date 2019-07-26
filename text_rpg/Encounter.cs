@@ -30,7 +30,7 @@ public class Encounter : MonoBehaviour {
   public void Attack() {
     int playerAttackAmount = (int)(Random.value * (player.STR - Enemy.DEF));  
     int enemyAttackAmount = (int)(Random.value * (Enemy.STR - player.DEF));
-    player.TakeDamage(enemyAttackAmount);
     Enemy.TakeDamage(playerAttackAmount);
+    player.TakeDamage(enemyAttackAmount);
   }
 }
