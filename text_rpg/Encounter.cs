@@ -33,6 +33,8 @@ public class Encounter : MonoBehaviour {
     
     Instance.Log("Player attacked for " + playerAttackAmount + "damage.");
     Enemy.TakeDamage(playerAttackAmount);
+    Instance.Log("Enemy attacked.");
     player.TakeDamage(enemyAttackAmount);
   }
+  
 }
