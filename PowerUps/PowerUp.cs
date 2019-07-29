@@ -43,7 +43,7 @@ public class PowerUp : MonoBehaviour {
     }
     
     if(powerUpState == PowerUpState.IsCollected || powerUpState == PowerUpState.IsExpiring) {
-      return;  
+         return;  
     }
     
     powerUpState = PowerUpState.IsCollected;
