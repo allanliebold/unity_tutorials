@@ -9,7 +9,7 @@ public class Enemy : Character {
       base.TakeDamage(amount);
     }
     
-    public override voide Die() {
+    public override void Die() {
         Debug.Log("Enemy died.");   
     }
 }
