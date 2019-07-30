@@ -10,7 +10,6 @@ public class World : MonoBehaviour {
   private void Awake() {
     Dungeon = new Room[(int)Grid.x, (int)Grid.y];  
     GenerateFloor();
-    Debug.Log("Floor generated.");
   }
   
   public void GenerateFloor() {
