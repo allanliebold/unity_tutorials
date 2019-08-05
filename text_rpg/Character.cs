@@ -8,7 +8,6 @@ namespace TextRPG {
     public int STR { get; set; }
     public int DEF { get; set; }
     public int GP { get; set; }
-    
     public Vector2 RoomIndex { get; set; }
     public List<string> Inventory { get; set; }
   }
