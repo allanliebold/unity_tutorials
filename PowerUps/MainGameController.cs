@@ -18,6 +18,7 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
     public float uiTextDisplayDuration = 5f;
     [Tooltip ("UI text to show whole list of active power ups")]
     public Text uiTextActivePowerUps;
+    
     public AudioClip soundEffectWin;
     public AudioClip soundEffectLose;
     public GameObject specialEffectWin;
