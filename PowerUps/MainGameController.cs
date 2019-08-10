@@ -179,6 +179,7 @@ public class MainGameController : MonoBehaviour, IPlayerEvents, IPowerUpEvents
     {
         mainGameState = MainGameState.GameOver;
       
+        uiText.text;
         uiText.text = "LEVEL COMPLETE";
         uiSubtext.text = "Press Space to Restart";
         uiTextDisplayTimer = Mathf.Infinity;  
