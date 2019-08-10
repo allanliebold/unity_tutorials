@@ -19,9 +19,8 @@ public class EnemyBrain : MonoBehaviour {
     private Vector2 nextWaypoint;
     private float moveTimer;
     private Rigidbody2D rigidBody;
-
+    
     private MovementState movementState = MovementState.Idle;
-
     private enum MovementState
     {
         Idle,
