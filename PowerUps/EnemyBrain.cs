@@ -75,6 +75,7 @@ public class EnemyBrain : MonoBehaviour {
                     Vector3 desiredDir = nextWaypoint - currentPos;
                     desiredDir.Normalize ();
                     rigidBody.AddForce (desiredDir * speed);
+                    
                     break;
             }
         }
