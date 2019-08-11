@@ -13,6 +13,7 @@ public class Player : Character {
     STR = 10;
     DEF = 5;
     GP = 0;
+    
     Inventory = new List<string>();
     RoomIndex = new Vector2(2, 2);
     world.Dungeon[(int)RoomIndex.x, (int)RoomIndex.y].Empty = true;
