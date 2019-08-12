@@ -20,5 +20,4 @@ public class TextDisplay : MonoBehaviour {
   public void Log(string text) {
     logText.text += text;
   }
-  
 }
