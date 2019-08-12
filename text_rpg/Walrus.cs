@@ -8,7 +8,7 @@ public class Walrus : Enemy {
     HP = 18;
     STR = 10;
     DEF = 8;
-    GP = 25;
+    GP = 23;
     Inventory.Add("Tusk");
     Inventory.Add("Blubber");
   }
