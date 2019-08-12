@@ -19,7 +19,7 @@ public class Room : MonoBehaviour {
   }
 
   public Room() {
-    int roll = Random.Range(0, 30);
+    int roll = Random.Range(0, 35);
     if(roll > 0 && roll < 6) {
       Enemy = EnemyDatabase.Instance.GetRandomEnemy();  
       Enemy.RoomIndex = RoomIndex;
