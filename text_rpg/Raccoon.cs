@@ -6,7 +6,7 @@ using TextRPG;
 public class Raccoon : Enemy {
   void Start () {
     HP = 8;  
-    STR = 5;
+    STR = 3;
     DEF = 2;
     GP = 20;
     Inventory.Add("Bandit Mask");
