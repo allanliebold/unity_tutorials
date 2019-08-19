@@ -11,5 +11,6 @@ public class Raccoon : Enemy {
     GP = 4;
     Inventory.Add("Bandit Mask");
     Inventory.Add("Acorn");
+    Inventory.Add();
   }
 }
