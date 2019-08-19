@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TextRPG;
 
-public class Room : MonoBehaviour {
+public class Room : MonoBehaviour 
+{
   public Chest Chest { get; set; }
   public Enemy Enemy { get; set; }
   public bool Exit { get; set; }
