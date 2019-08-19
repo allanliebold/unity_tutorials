@@ -5,7 +5,7 @@ using TextRPG;
 
 public class Raccoon : Enemy {
   void Start () {
-    HP = 10;  
+    HP = 8;  
     STR = 5;
     DEF = 2;
     GP = 20;
