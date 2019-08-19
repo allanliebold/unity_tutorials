@@ -7,7 +7,7 @@ public class Raccoon : Enemy {
   void Start () {
     HP = 10;  
     STR = 5;
-    DEF = 3;
+    DEF = 2;
     GP = 20;
     Inventory.Add("Bandit Mask");
     Inventory.Add("Acorn");
