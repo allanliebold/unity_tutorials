@@ -9,7 +9,6 @@ public class Raccoon : Enemy {
     STR = 3;
     DEF = 2;
     GP = 4;
-    Inventory.Add("Bandit Mask");
     Inventory.Add("Acorn");
     Inventory.Add("Crumbs");
   }
