@@ -8,7 +8,7 @@ public class Raccoon : Enemy {
     HP = 8;  
     STR = 3;
     DEF = 2;
-    GP = 20;
+    GP = 4;
     Inventory.Add("Bandit Mask");
     Inventory.Add("Acorn");
   }
