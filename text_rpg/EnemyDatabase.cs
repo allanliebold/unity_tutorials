@@ -15,7 +15,6 @@ public class EnemyDatabase : MonoBehaviour {
       Enemies.Add(enemy);
       enemyCount++;
     }
-    
     Debug.Log("Enemies in Database: " + enemyCount);
   }
   
