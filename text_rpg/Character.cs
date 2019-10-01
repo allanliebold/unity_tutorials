@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace TextRPG {
   public class Character : MonoBehaviour {
+    
     public int HP { get; set; }
     public int STR { get; set; }
     public int DEF { get; set; }
