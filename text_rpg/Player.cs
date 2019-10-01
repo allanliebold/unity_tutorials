@@ -56,6 +56,11 @@ public class Player : Character {
     base.TakeDamage(amount);
   }
   
+  public override void TakeDamage(int amount) {
+    Debug.Log(playerName + " took " + amount + " damage.");
+    base.TakeDamage(amount);
+  }
+
   public override void Die() {
     Debug.Log(playerName + " died. Game over.");
     base.Die();
