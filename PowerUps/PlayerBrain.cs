@@ -125,7 +125,7 @@ public class PlayerBrain : MonoBehaviour, IMainGameEvents
             }
         }
     }
-      private void Update ()
+    private void Update ()
     {
         horizSpeed = Input.GetAxis ("Horizontal") * speed;
         vertSpeed = Input.GetAxis ("Vertical") * speed;
